@@ -1,0 +1,16 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 18 Aug 2017 23:27:26 at http://www.redcentricplc.com/virtual-worlds/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://www.redcentricplc.com/virtual-worlds/ -O1 "E:\anupriya\My Web Site\virtual world" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+23:27:39	Error: 	"Not Found" (404) at link www.redcentricplc.com/images/vw/virtual-worlds-og-image.jpg (from www.redcentricplc.com/virtual-worlds/)
+23:34:04	Warning: 	Retry after error -4 (Incorrect length (942297 Bytes, 994971 expected)) at link www.redcentricplc.com/virtual-worlds/img/vw/layers/wow/clouds.png (from www.redcentricplc.com/virtual-worlds/css/styles.min.css)
+23:34:27	Error: 	"Not Found" (404) at link www.redcentricplc.com/virtual-worlds/img/vw/inner-content-line.png (from www.redcentricplc.com/virtual-worlds/css/styles.min.css)
+23:34:27	Error: 	"Not Found" (404) at link www.redcentricplc.com/virtual-worlds/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/ (from connect.facebook.net/en_GB/all.js)
+23:34:27	Error: 	"Bad Request" (400) at link www.redcentricplc.com/virtual-worlds/%s/profile.php?id=%s (from connect.facebook.net/en_GB/all.js)
+
+HTTrack Website Copier/3.49-2 mirror complete in 7 minutes 1 seconds : 115 links scanned, 109 files written (10776181 bytes overall) [10497942 bytes received at 24935 bytes/sec], 439957 bytes transferred using HTTP compression in 6 files, ratio 29%
+(4 errors, 1 warnings, 0 messages)

@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="">
+    <title>City Listing - Directory Template</title>
+    <!-- Google Font(s) -->
+    <link href="https://fonts.googleapis.com/css?family=Capriola|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <!-- Bootstrap-->
+    <link href="assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Awesome Icons Font -->
+    <link href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Listing Filter -->
+    <link href="assets/lib/bootstrap-select-master/dist/css/bootstrap-select.min.css" rel="stylesheet">
+    <!-- Lightbox -->
+    <link href="assets/lib/lightbox2-master/dist/css/lightbox.min.css" rel="stylesheet">
+    <!-- Map -->
+    <link href="assets/lib/Leaflet-1.0.2/dist/leaflet.css" rel="stylesheet">
+    <!-- City Listing Icons -->
+    <link href="assets/fonts/icons/css/import-icons.css" rel="stylesheet">
+    <!-- Main CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="assets/lib/html5shiv-master/dist/html5shiv.min.js"></script>
+      <script src="assets/lib/Respond-master/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="front-page">
+    <!-- Start Body Content Wrapper -->
+    <div class="body-wrapper">
+      <!-- Start header (topbar) -->
+      <header class="header transparent no-shadow">
+        <!-- Start Logo -->
+       <!--  <div class="logo">
+          <a href="index.html#" class="logo-color-bg">
+            <img alt="" src="assets/images/logo.png"/>
+          </a>
+        </div> -->
+        <!-- End Logo -->
+        <!-- Start User Buttons -->
+        <div class="user-buttons">
+          <a href="index.html#" class="user-login"></a>
+<!--           <a href="index.html#" class="add-listing">Add Listing</a>
+ -->        </div>
+        <!-- End User Buttons -->
+        <!-- Start Navbar -->
+        <div class="navbar navbar-inverse" role="navigation" id="slide-nav">
+          <div class="container">
+            <!-- <div id="slidemenu">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                  <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">Home<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="index.html#">Youtube Hero Video</a></li>
+                    <li><a href="index.html#">Youtube Hero Video Light</a></li>
+                    <li><a href="index.html#">Vimeo Hero Video</a></li>
+                    <li><a href="index.html#">Self Hosted Video In Color</a></li>
+                    <li><a href="index.html#">Hero Slideshow</a></li>
+                    <li><a href="index.html#">Hero Image</a></li>
+                    <li><a href="index.html#">Hero Image Masked</a></li>
+                    <li><a href="index.html#">Hero Image Dark</a></li>
+                    <li><a href="index.html#">Hero Image Texture</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">Sign In<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="index.html#">Login/Register</a></li>
+                    <li><a href="index.html#">Recover Password</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="index.html#">How it Works</a></li>
+                    <li><a href="index.html#">Pricing</a></li>
+                    <li><a href="index.html#">FAQ</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">Listings<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="index.html#">Map View as Default</a></li>
+                    <li><a href="index.html#">Listing View Grid 1</a></li>
+                    <li><a href="index.html#">Listing View Grid 2</a></li>
+                    <li><a href="index.html#">Listing View Grid 3</a></li>
+                    <li><a href="index.html#">Listing View Grid 4</a></li>
+                    <li><a href="index.html#">Listing View Grid 5</a></li>
+                    <li><a href="index.html#">Listing Detail</a></li>
+                    <li><a href="index.html#">Cities Option 1</a></li>
+                    <li><a href="index.html#">Cities Option 2</a></li>
+                    <li><a href="index.html#">Cities Option 3</a></li>
+                    <li><a href="index.html#">Cities Option 4 - Leaf Shaped</a></li>
+                    <li><a href="index.html#">Not Found</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">Blog<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="index.html#">Blog Grid 1</a></li>
+                    <li><a href="index.html#">Blog Grid 2</a></li>
+                    <li><a href="index.html#">Blog Grid 3</a></li>
+                    <li><a href="index.html#">Blog Grid 4 - No Sidebar</a></li>
+                    <li><a href="index.html#">Single Article</a></li>
+                    <li><a href="index.html#">Single Article - No Sidebar</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">Contact<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="index.html#">Default Contact</a></li>
+                    <li><a href="index.html#">Support</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div> -->
+          </div>
+        </div>
+        <!-- End Navbar -->
+      </header>
+      <!-- End header (topbar) -->
+      <!-- Start Login/Register Popup -->
+      <div class="login-popup container hero-header">
+        <div class="row">
+    			<div class="col-sm-12 text-center">
+    				<div class="panel panel-form">
+    					<div class="panel-heading">
+    						<div class="row">
+    							<div class="col-xs-6">
+    								<a href="index.html#" class="active" id="login-form-link">Login</a>
+    							</div>
+    							<div class="col-xs-6">
+    								<a href="index.html#" id="register-form-link">Register</a>
+    							</div>
+    						</div>
+    						<hr>
+    					</div>
+    					<div class="panel-body">
+    						<div class="row">
+    							<div class="col-lg-12">
+    								<form id="login-form" action="index.html#" method="post">
+    									<div class="form-group">
+    										<input type="text" name="username" id="login-username" tabindex="1" class="form-control" placeholder="Username" value="">
+    									</div>
+    									<div class="form-group">
+    										<input type="password" name="password" id="login-password" tabindex="2" class="form-control" placeholder="Password">
+    									</div>
+    									<div class="form-group text-center">
+    										<input type="checkbox" tabindex="3" class="" name="remember" id="remember">
+    										<label for="remember"> Remember Me</label>
+    									</div>
+    									<div class="form-group">
+    										<input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-submit" value="Log In">
+    									</div>
+    									<div class="form-group">
+    										<div class="row">
+    											<div class="col-lg-12">
+    												<div class="text-center">
+    													<a href="index.html#" tabindex="5" class="login-forgot-password">Forgot Password?</a>
+    												</div>
+    											</div>
+    										</div>
+    									</div>
+    								</form>
+    								<form id="register-form" action="index.html#" method="post">
+    									<div class="form-group">
+    										<input type="text" name="username" id="register-username" tabindex="1" class="form-control" placeholder="Username" value="">
+    									</div>
+    									<div class="form-group">
+    										<input type="email" name="email" id="register-email" tabindex="1" class="form-control" placeholder="Email Address" value="">
+    									</div>
+    									<div class="form-group">
+    										<input type="password" name="password" id="register-password" tabindex="2" class="form-control" placeholder="Password">
+    									</div>
+    									<div class="form-group">
+    										<input type="password" name="confirm-password" id="register-confirm-password" tabindex="2" class="form-control" placeholder="Confirm Password">
+    									</div>
+    									<div class="form-group">
+    										<input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-submit" value="Register Now">
+    									</div>
+    								</form>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+      </div>
+      <!-- End Login/Register Popup -->
+      <!-- Start Hero Header -->
+      <div class="container-fluid hero-header h-video transparent">
+        <!-- Start Header Centralizer -->
+        <!-- <div class="header-centralizer"> -->
+          <div class="content-centralized">
+            <!-- Start Hero Search -->
+            <div class="hero-search">
+              <form>
+               <!--  <fieldset>
+                  <input type="text" class="form-control" data-placeholder="Explore and Enjoy...">
+                  <span class="typingEffect" data-title="Explore and Enjoy//Find New Places//Discover Tasty Goodies//Do Memorable Check-ins//Go Beyond Horizon"></span>
+                </fieldset> -->
+                <!-- Start Search cities Toggle -->
+                <!-- <div class="search-cities-toggle"></div> -->
+                <!-- End Search cities Toggle -->
+                <!-- Start Search Cities -->
+                <!-- <div class="search-cities">
+                  <div class="cities-list">
+                    <a href="index.html#" style="background-image:url('assets/images/cities/thumbs/1.jpg')" data-city-id="1"><span>Boston</span></a>
+                    <a href="index.html#" style="background-image:url('assets/images/cities/thumbs/2.jpg')" data-city-id="2"><span>Chicago</span></a>
+                    <a href="index.html#" style="background-image:url('assets/images/cities/thumbs/3.jpg')" data-city-id="0" class="current"><span>Miami</span></a>
+                    <a href="index.html#" style="background-image:url('assets/images/cities/thumbs/4.jpg')" data-city-id="3"><span>New Orleans</span></a>
+                    <a href="index.html#" style="background-image:url('assets/images/cities/thumbs/5.jpg')" data-city-id="4" class="go-more-cities"><span>More Cities</span></a>
+                    <input class="chosen-city" type="hidden" name="city" value="0">
+                  </div>
+                </div> -->
+                <!-- End Search Cities -->
+               <!--  <div class="search-submit">
+                  <input type="submit" value=" ">
+                  <i class="hero-search-icon"></i>
+                </div> -->
+              </form>
+            </div>
+            <!-- End Hero Search -->
+            <!-- Start Search Categories -->
+            <div class="search-categories">
+              <div class="categories">
+                <a class="icon-home" href="index.html#">Home</a>
+                <a class="icon-library child" href="index.html#">About Us</a>
+                <a class="icon-trophy2 child" href="index.html#">Events</a>
+                <a class="icon-users child" href="index.html#">Team</a>
+                <a class="icon-hand-waving" href="index.html#">Sponsors</a>
+                <a class="icon-wifi" href="index.html#">Website Team</a>
+                
+                
+                <a class="icon-envelope child" href="index.html#">Contact Us</a>
+               <!-- <a class="icon-bench-press child" href="index.html#">Gim</a>
+                <a class="icon-saw child" href="index.html#">Home Service</a>
+                <a class="icon-laundry child" href="index.html#">Laundry</a>
+                <a class="icon-bag-dollar child" href="index.html#">Bank</a>
+                <a class="icon-palette child" href="index.html#">Art Gallery</a>
+                
+                <a class="icon-chair child" href="index.html#">Furniture</a>
+                <a class="icon-receipt" href="index.html#">Coupons</a>
+                <a class="icon-lan2" href="index.html#">Online Order</a>
+                <a class="icon-paw" href="index.html#">Pets Friendly</a>
+                <a class="icon-wheelchair" href="index.html#">Accessible</a>
+                <a class="icon-wifi" href="index.html#">Wi-Fi</a>
+                <a class="icon-city" href="index.html#">More Options</a>-->
+              </div>
+            </div>
+            <!-- End Search Categories -->
+          </div>
+        </div>
+      </div>
+      <!-- Ends Hero Header -->
+      <!-- Start Front Categories -->
+      <!--<div class="container-fluid front-categories vertical">
+        <div class="row row-title">
+          <h1>What Do You Need Today?</h1>
+          <h4>Easily glimpse hand picked places</h4>
+        </div>
+        <div class="row cat-itens">
+          <div class="cat-item">
+            <div class="cat-overlay"></div>
+            <div  class="cat-image" style="background-image:url('assets/images/categories/1.jpg')"></div>
+            <div class="cat-icon icon-bus"></div>
+            <div class="cat-counter">34</div>
+            <a href="index.html#">
+              <div class="cat-text">Tour</div>
+            </a>
+          </div>
+          <div class="cat-item">
+            <div class="cat-overlay"></div>
+            <div class="cat-image" style="background-image:url('assets/images/categories/2.jpg')"></div>
+            <div class="cat-icon icon-dinner"></div>
+            <div class="cat-counter">7</div>
+            <a href="index.html#">
+              <div class="cat-text">Eat</div>
+            </a>
+          </div>
+          <div class="cat-item">
+            <div class="cat-overlay"></div>
+            <div  class="cat-image" style="background-image:url('assets/images/categories/3.jpg')"></div>
+            <div class="cat-icon icon-bed"></div>
+            <div class="cat-counter">47</div>
+            <a href="index.html#">
+              <div class="cat-text">Relax</div>
+            </a>
+          </div>
+          <div class="cat-item">
+            <div class="cat-overlay"></div>
+            <div  class="cat-image" style="background-image:url('assets/images/categories/6.jpg')"></div>
+            <div class="cat-icon icon-bag"></div>
+            <div class="cat-counter">29</div>
+            <a href="index.html#">
+              <div class="cat-text">Buy</div>
+            </a>
+          </div>
+          <div class="cat-item">
+            <div class="cat-overlay"></div>
+            <div  class="cat-image" style="background-image:url('assets/images/categories/10.jpg')"></div>
+            <div class="cat-icon icon-city"></div>
+            <div class="cat-counter">92</div>
+            <a href="index.html#">
+              <div class="cat-text">Other</div>
+            </a>
+          </div>
+        </div>
+      </div>-->
+      <!-- End Front Categories -->
+      <!-- Start Trending -->
+      <!--<div class="container-fluid trending">
+        <div class="row row-title">
+          <h1>Trending Right Now</h1>
+          <h4>The most quoted recently</h4>
+        </div>
+        <div class="row listing">-->
+          <!-- Start Trending Item Col -->
+         <!-- <div class="col-sm-3">
+            <div class="listing-item">
+              <a href="index.html#" class="category-icon icon-teacup"></a>
+              <div class="listing-item-rating">4.2</div>
+              <a href="index.html#" class="listing-item-link">
+                <div class="listing-item-title-centralizer">
+                  <div class="listing-item-title">
+                    Sightglass Coffee
+                    <div class="ribbon">~ $20-$50</div>
+                  </div>
+                </div>
+                <img alt="" src="assets/images/trending/2.jpg" />
+              </a>
+              <div class="listing-item-data">
+                <a class="listing-item-address" href="index.html#">
+                  3014 20th St San Francisco
+                </a>
+                <div class="listing-item-excerpt">
+                  The love of coffee shines all the woody ambience
+                </div>
+              </div>
+              <div class="listing-category-name">
+                <a href="index.html#">Cafeteria</a>
+              </div>
+            </div>
+          </div>-->
+          <!-- End Trending Item Col -->
+          <!-- Start Trending Item Col -->
+          <!--<div class="col-sm-3">
+            <div class="listing-item">
+              <a href="index.html#" class="category-icon icon-library2"></a>
+              <div class="listing-item-rating">4.9</div>
+              <a href="index.html#" class="listing-item-link">
+                <div class="listing-item-title-centralizer">
+                  <div class="listing-item-title">
+                    N.O.M.A.
+                    <div class="ribbon">Admission $12</div>
+                  </div>
+                </div>
+                <img alt="" src="assets/images/trending/3.jpg" />
+              </a>
+              <div class="listing-item-data">
+                <a class="listing-item-address" href="index.html#">
+                  City Park, New Orleans, Louisiana 70124
+                </a>
+                <div class="listing-item-excerpt">
+                  The New Orleans Museum of Art
+                </div>
+              </div>
+              <div class="listing-category-name">
+                <a href="index.html#">Museum</a>
+              </div>
+            </div>
+          </div>-->
+          <!-- End Trending Item Col -->
+          <!-- Start Trending Item Col -->
+         <!-- <div class="col-sm-3">
+            <div class="listing-item">
+              <a href="index.html#" class="category-icon icon-lotus"></a>
+              <div class="listing-item-rating">4.7</div>
+              <a href="index.html#" class="listing-item-link">
+                <div class="listing-item-title-centralizer">
+                  <div class="listing-item-title">
+                    Mead Botanical Garden
+                    <div class="ribbon">Free Entrance</div>
+                  </div>
+                </div>
+                <img alt="" src="assets/images/trending/1.jpg" />
+              </a>
+              <div class="listing-item-data">
+                <a class="listing-item-address" href="index.html#">
+                  1500 S. Denning Drive Winter Park, FL 32789
+                </a>
+                <div class="listing-item-excerpt">
+                  48-acre urban oasis located on Orange County
+                </div>
+              </div>
+              <div class="listing-category-name">
+                <a href="index.html#">Park and Garden</a>
+              </div>
+            </div>
+          </div>-->
+          <!-- End Trending Item Col -->
+          <!-- Start Trending Item Col -->
+          <!--<div class="col-sm-3">
+            <div class="listing-item">
+              <a href="index.html#" class="category-icon icon-glass"></a>
+              <div class="listing-item-rating">3.9</div>
+              <a href="index.html#" class="listing-item-link">
+                <div class="listing-item-title-centralizer">
+                  <div class="listing-item-title">
+                    Cave B Estate
+                    <div class="ribbon">Starting from $49</div>
+                  </div>
+                </div>
+                <img alt="" src="assets/images/trending/4.jpg" />
+              </a>
+              <div class="listing-item-data">
+                <a class="listing-item-address" href="index.html#">
+                  348 Silica Rd NW Quincy, WA 98848
+                </a>
+                <div class="listing-item-excerpt">
+                  Fine Wines, Crafted with Artistry and Passion
+                </div>
+              </div>
+              <div class="listing-category-name">
+                <a href="index.html#">Winery</a>
+              </div>
+            </div>
+          </div>-->
+          <!-- End Trending Item Col -->
+        </div>
+      </div>
+      <!-- End Trending -->
+      <!-- Start How It Works -->
+      <!--<div class="container-fluid how color-bg">
+        <div class="row row-title">
+          <h1>How it Works</h1>
+          <h4>New experiences and opportunities to both sides</h4>
+        </div>
+        <div class="row how-items">-->
+          <!-- Start How Item Col -->
+          <!--<div class="col-sm-3">
+            <div class="how-item">
+              <a href="index.html#">
+                <img alt="" src="assets/images/miscellaneous/icon-1.png" />
+                <h3 class="how-item-title">Announcers</h3>
+                <div class="how-item-excerpt">
+                  Publish a listing to show everyone what are the goodies of your establishment. Add amenities and tags to promote every detail of your listing.
+                </div>
+              </a>
+            </div>
+          </div>-->
+          <!-- End How Item Col -->
+          <!-- Start How Item Col -->
+          <!--<div class="col-sm-3">
+            <div class="how-item">
+              <a href="index.html#">
+                <img alt="" src="assets/images/miscellaneous/icon-2.png" />
+                <h3 class="how-item-title">Consumers</h3>
+                <div class="how-item-excerpt">
+                  Easily find interesting hand-picked places by local experts. Save your time by organizing your trip Online, don't miss any point.
+                </div>
+              </a>
+            </div>
+          </div>-->
+          <!-- End How Item Col -->
+          <!-- Start How Item Col -->
+          <!--<div class="col-sm-3">
+            <div class="how-item">
+              <a href="index.html#">
+                <img alt="" src="assets/images/miscellaneous/icon-3.png" />
+                <h3 class="how-item-title">Everyone</h3>
+                <div class="how-item-excerpt">
+                  Exchange experiences and tastes, extend your personal and profissional network creating long-term business relationship and new friendships.
+                </div>
+              </a>
+            </div>
+          </div>-->
+          <!-- End How Item Col -->
+          <!-- Start How Item Col -->
+          <!--<div class="col-sm-3">
+            <div class="how-item">
+              <a href="index.html#">
+                <img alt="" src="assets/images/miscellaneous/icon-4.png" />
+                <h3 class="how-item-title">Free Vs Premium</h3>
+                <div class="how-item-excerpt">
+                  You can start it free right now and migrate to a premium account anytime you want. Click to see all the plans and resources.
+                </div>
+              </a>
+            </div>
+          </div>-->
+          <!-- End How Item Col -->
+        </div>
+      </div>
+      <!-- End How It Works -->
+      <!-- Start App -->
+      <!--<div class="container-fluid app">
+        <div class="row row-title">
+          <h1>Download our App</h1>
+          <h4>All listings at your fingertips</h4>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="app-version">
+              v1.03 (beta)
+            </div>
+            <div class="app-img">
+              <img alt="" src="assets/images/miscellaneous/mobile-cut-laguna-green.png"/>
+            </div>
+            <div class="app-links">
+              <a href="index.html#">
+                <img alt="" src="assets/images/miscellaneous/g-play.png" />
+              </a>
+              <a href="index.html#">
+                <img alt="" src="assets/images/miscellaneous/app-st.png" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>-->
+      <!-- End App -->
+      <!-- Start Blog Section -->
+      <!--<div class="container-fluid blog blog-home">
+        <div class="row row-title">
+          <h1>Tips and Tricks</h1>
+          <h4>We have some suggestions to you</h4>
+        </div>
+        <div class="row listing white">-->
+          <!-- Start Blog Item Col -->
+          <!--<div class="col-sm-3">
+            <div class="listing-item">
+              <a href="index.html#" class="category-icon icon-news"></a>
+              <div class="listing-item-date">
+                <div class="day">12</div>
+                <div class="month">Feb</div>
+              </div>
+              <a href="index.html#" class="listing-item-link">
+                <div class="listing-item-title-centralizer">
+                  <div class="listing-item-title">
+                    From Beach Glitz to Urban Ritz, Miami's Hotels Shine
+                  </div>
+                </div>
+                <img alt="" src="assets/images/blog/14.jpg" />
+              </a>
+              <div class="listing-item-data">
+                <div class="listing-item-excerpt">
+                  The best relaxing experience
+                </div>
+              </div>
+              <div class="listing-category-name">
+                <a href="index.html#">Relax</a>
+              </div>
+            </div>
+          </div>-->
+          <!-- End Blog Item Col -->
+          <!-- Start Blog Item Col -->
+          <!--<div class="col-sm-3">
+            <div class="listing-item">
+              <a href="index.html#" class="category-icon icon-paperclip"></a>
+              <div class="listing-item-date">
+                <div class="day">07</div>
+                <div class="month">Feb</div>
+              </div>
+              <a href="index.html#" class="listing-item-link">
+                <div class="listing-item-title-centralizer">
+                  <div class="listing-item-title">
+                    Fill Your Bags with Buys from Boston's Best Shopping Spots
+                  </div>
+                </div>
+                <img alt="" src="assets/images/blog/15.jpg" />
+              </a>
+              <div class="listing-item-data">
+                <div class="listing-item-excerpt">
+                  Staple items, unique pieces
+                </div>
+              </div>
+              <div class="listing-category-name">
+                <a href="index.html#">Shop</a>
+              </div>
+            </div>
+          </div>-->
+          <!-- End Blog Item Col -->
+          <!-- Start Blog Item Col -->
+          <!--<div class="col-sm-3">
+            <div class="listing-item">
+              <a href="index.html#" class="category-icon icon-reminder"></a>
+              <div class="listing-item-date">
+                <div class="day">02</div>
+                <div class="month">Feb</div>
+              </div>
+              <a href="index.html#" class="listing-item-link">
+                <div class="listing-item-title-centralizer">
+                  <div class="listing-item-title">
+                    Fall In Love All Over Again During These Romantic Activities in NYC
+                  </div>
+                </div>
+                <img alt="" src="assets/images/blog/17.jpg" />
+              </a>
+              <div class="listing-item-data">
+                <div class="listing-item-excerpt">
+                  Take romance to the next level
+                </div>
+              </div>
+              <div class="listing-category-name">
+                <a href="index.html#">Fun and Entertainment</a>
+              </div>
+            </div>
+          </div>-->
+          <!-- End Blog Item Col -->
+          <!-- Start Blog Item Col -->
+          <!--<div class="col-sm-3">
+            <div class="listing-item">
+              <a href="index.html#" class="category-icon icon-lamp"></a>
+              <div class="listing-item-date">
+                <div class="day">23</div>
+                <div class="month">Jan</div>
+              </div>
+              <a href="index.html#" class="listing-item-link">
+                <div class="listing-item-title-centralizer">
+                  <div class="listing-item-title">
+                    Get Your Sourdough On at Goat Hill Pizza
+                  </div>
+                </div>
+                <img alt="" src="assets/images/blog/16.jpg" />
+              </a>
+              <div class="listing-item-data">
+                <div class="listing-item-excerpt">
+                  Spreading the joy to West Portal
+                </div>
+              </div>
+              <div class="listing-category-name">
+                <a href="index.html#">Food and Drink</a>
+              </div>
+            </div>
+          </div>-->
+          <!-- End Blog Item Col -->
+        </div>
+      </div>
+      <!-- End Blog Section -->
+      <!-- Start Footer -->
+      <footer>
+        <div class="row footer-info">
+          <div class="footer-col footer-terms">
+            <a href="index.html#">Terms of Use</a>
+          </div>
+          <div class="footer-col footer-privacy">
+            <a href="index.html#">Privacy Policy</a>
+          </div>
+          <div class="footer-col social-networks">
+            <a href="index.html#" class="fa fa-facebook"></a>
+            <a href="index.html#" class="fa fa-twitter"></a>
+            <a href="index.html#" class="fa fa-instagram"></a>
+            <a href="index.html#" class="fa fa-pinterest"></a>
+          </div>
+          <div class="footer-col footer-links">
+            <a href="index.html#">Home</a>
+            <a href="index.html#">About</a>
+            <a href="index.html#" class="sign-in">Sign In</a>
+            <a href="index.html#">Pricing</a>
+            <a href="index.html#">Blog</a>
+            <a href="index.html#">Contact</a>
+          </div>
+          <div class="footer-col footer-contact">
+            <div class="footer-address">
+              Your Business Address Here
+            </div>
+            <div class="footer-contact-data">
+              (99) 989-745-9922
+            </div>
+          </div>
+        </div>
+        <div class="row footer-logo">
+          <a href="index.html#">
+            <img alt="" src="assets/images/logo.png"/>
+          </a>
+        </div>
+        <div class="row footer-credits">
+          <div class="copyright">
+            (C) 2017 Your Company, All right reserved
+          </div>
+        </div>
+      </footer>
+      <!-- End Footer -->
+    </div>
+    <!-- End Body Content Wrapper -->
+    <!-- Vimeo Hero Video Background -->
+    <script>
+      var vm_video = "141274767";
+    </script>
+    <!-- jQuery -->
+    <script src="assets/lib/jquery.min.js"></script>
+    <script src="assets/lib/jquery-ui.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Lightbox -->
+    <script src="assets/lib/lightbox2-master/dist/js/lightbox.min.js"></script>
+    <!-- Typing Effect -->
+    <script src="assets/lib/typed.js-master/dist/typed.min.js"></script>
+    <!-- Dragging Scroll to Listing Gallery -->
+    <script src="assets/lib/jquery.dragscroll.js"></script>
+    <!-- Horizontal Mousewheel Scroll to Listing Gallery -->
+    <script src="assets/lib/jquery-mousewheel-master/jquery.mousewheel.min.js"></script>
+    <!-- Listing Filter -->
+    <script src="assets/lib/bootstrap-select-master/js/bootstrap-select.js"></script>
+    <!-- To Self Hosted Hero Video -->
+    <script src="assets/lib/bideo.js-master/bideo.js"></script>
+    <!-- Map -->
+    <script src="assets/lib/Leaflet-1.0.2/build/deps.js"></script>
+  	<script src="assets/lib/Leaflet-1.0.2/debug/leaflet-include.js"></script>
+    <script src="assets/js/map-markers-samples/sampleMapSingleListingMarker.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

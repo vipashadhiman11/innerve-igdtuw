@@ -1995,7 +1995,10 @@ footer.large .foot-planet .text {
 /*changes for full screen view*/
 .wow-interact .b7{margin:0 0 0 110px}
 .wow-interact .b8{margin:0 0 0 400px}
-.wow-interact .b9{margin:0 0 0 320px}
+.wow-interact .b9{margin:0 0 0 350px}
+.wow-interact .b10{margin:0 0 0 20px}
+.wow-interact .b11{margin:0 0 0 300px}
+.wow-interact .b12{margin:0 0 0 180px}
 
 /*upto here*/
 
@@ -2029,7 +2032,11 @@ footer.large .foot-planet .text {
 
 /*CHANGES */
 .eve-interact .b8{margin:80px 0 0 180px}
-.eve-interact .b9{margin:80px 0 0 260px}   /*  */
+.eve-interact .b9{margin:80px 0 0 260px}
+.eve-interact .b10{margin:160px 0 0 180px}
+.eve-interact .b11{margin:200px 0 0 360px}
+.eve-interact .b12{margin:30px 0 0 180px}
+  /*  */
 
 .secondlife-interact .b1 {
     margin: -75px 0 0 150px
@@ -2056,13 +2063,13 @@ footer.large .foot-planet .text {
 }
 
 .secondlife-interact .b7 {
-    opacity: 0
+    margin:220px 0 0 520px
 }
 
 
 /*CHANGES*/
 .secondlife-interact .b8{margin:80px 0 0 -20px}
-.secondlife-interact .b9{margin:220px 0 0 80px}
+.secondlife-interact .b9{margin:200px 0 0 80px}
 .secondlife-interact .b10{margin:320px 0 0 120px}
 .secondlife-interact .b11{margin:380px 0 0 20px}
 .secondlife-interact .b12{margin:320px 0 0 220px}   /* */
@@ -2607,7 +2614,10 @@ footer.large .foot-planet .text {
 	
 	/*changes for less screen size*/
 .world-interact .b8{margin:200px 0 0 -50px!important}
-.world-interact .b9{margin:250px 0 0 -50px!important}
+.world-interact .b9{margin:320px 0 0 -50px!important}
+.world-interact .b10{margin:290px 0 0 -50px!important}
+.world-interact .b11{margin:270px 0 0 -50px!important}
+.world-interact .b12{margin:300px 0 0 -50px!important}
 /*/upto here
 */
     .map-list:before {

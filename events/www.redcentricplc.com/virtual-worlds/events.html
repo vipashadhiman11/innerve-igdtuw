@@ -21,6 +21,7 @@
         <meta property="og:description" content="Take a look at the Internet's biggest virtual worlds & find out how they measure up against real life.">
 
         <link rel="stylesheet" href="css/styles.min.css">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
         <!--[if IE 8]>
             <link rel="stylesheet" type="text/css" href="css/ie8.css" />
@@ -49,12 +50,51 @@
 		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		  })();
 
+
+        
 		</script>
         <style>
-            #element1 {display:inline-block;margin-right:20px;} 
-            #element2 {display:inline-block;} 
+
+			#element1 {
+                        display:inline-block;
+                        
+
+                    } 
+
+            #element2 {
+                        display:inline-block;
+                        margin-left:15px;
+                      
+
+                        
+                    } 
+
+            #element3 {
+                        display:inline-block;
+                        margin-bottom: -50px;
+                        margin-left:20px;
+           			  } 
+
+
+			#element4 {
+						display:inline-block;
+                        margin-left:20px;
+                        margin-right:5px;
+
+						}
+
+			#rules {
+						height:60px;
+						width:60px;	
+                        margin-left:0;					
+
+
+
+			}
+           
 
         </style>
+
 
     </head>
 
@@ -96,7 +136,7 @@
                         <div class="skew inner">
                             <p class="nav-heading"><span>Online Events</span></p>
                             <p class="nav-desc">Here are some online events. </p>
-                            <p class="explore"><span></span>Explore Further</p>
+                            <p class="explore"><span></span>Explore</p>
                             </div>
                         </div>
                     <div class="nav-warcraft" data-section="wow">
@@ -107,7 +147,7 @@
                             <p class="nav-heading"><span>Fun Events</span></p>
                             <p class="nav-desc">Here are some fun events</p>
                              
-                            <p class="explore"><span></span>Explore Further</p>
+                            <p class="explore"><span></span>Explore</p>
                             
                            
                         </div>
@@ -119,7 +159,7 @@
                         <div class="skew inner">
                             <p class="nav-heading"><span>Tech Events</span></p>
                             <p class="nav-desc">Here are some tech events.</p>
-                            <p class="explore"><span></span>Explore Further</p>
+                            <p class="explore"><span></span>Explore</p>
                             
                             
 
@@ -233,10 +273,86 @@
             -->
 
             <!-- Stat Overlays -->
-            <div class="overlays">
+
+
+
+
+
+			<div class="overlays">
 
                 <div class="wow-overlays">
                     <!-- WOW INTRO -->
+                    <div class="overlay wow-intro intro-overlay">
+                        <div class="inner">
+                            <div class="centered">
+                                <p class="info-heading">Fun Events</p>
+                                <div class="inner-content">
+                                    <p>Here are some fun events.</p>
+                                </div>
+                                
+                            <p class="explore"><span></span>Explore</p>
+                           
+                           
+                            </div>
+                        </div>
+                    </div><!-- /.wow-intro -->
+
+                    <!-- WOW 1 -->
+                    <div class="overlay wow-b1">
+                        <div class="inner">
+                            <div class="centered">
+
+                                <p class="info-heading"> TECH MEME ATHON</p>
+                                <div style="overflow: auto; width:500px; height:300px;">
+                                <div class="inner-content">
+                                	<!--
+                                    <p class="info-sub-heading">Did you know?</p>
+                                    -->
+                                    <p id="demo">Make a technical meme on a template of your choice. <br>
+                            
+                                        ♦ Meme should include at least ONE technical term or phrase <br>
+                                        ♦ Winners will be decided on the basis of direct likes. For a like to be counted, the page should be liked first. <br>
+                                        ♦ The top four memes will be awarded – two on the basis of number of likes, and two will be Jury’s choice. <br>
+                                        ♦ A maximum of two entries are allowed per person. <br>
+                                        ♦ PLAGIARISM IS NOT ALLOWED. Plagiarised content will be disqualified. <br>
+                                        Date of Submission : 20--26 August, 2017 <br>
+                                        Participate and win exciting prizes! <br>
+                                        Send in your entries, alongwith your name and college to: innerve.techevents@gmail.com <br>
+                                    </p>
+                                </div>
+                                </div>
+                                <br>
+                                <br>
+                                <!--
+                                class="explore" onclick="myFunction()" style="background-color:transparent; border:transparent;
+                                -->
+                               	<div id="element1" style="position:relative; bottom:12px">
+                                <img src="rules.png" onclick="myFunction()" id="rules">
+                            	</div>
+                                <!-- <p id="demo"></p> -->
+                                <script>
+                                    function myFunction(){
+                                        document.getElementById("demo").innerHTML = "1. Login to become registered user <br> 2. Dont use unfair means  <br> 3. Price Money may vary <br>  4. pay reg fee at gcr ";
+                                }
+                                </script>
+                            	
+                              
+                                <div id="element2" style="height:10px">
+                                    <a href='#'><p class="explore"><span></span>REGISTER</p></a>
+                                </div>
+                                <div id="element3" style="position:relative; bottom:19px">
+                                    <a href='#'><i class="fa fa-facebook-square fa-4x" aria-hidden="true" ></i></a>
+                                </div>
+                                <div id="element4" style="height:10px">
+                                <p class="explore"><span></span>Explore</p>
+                            	</div>
+                            </div>
+                        </div>
+                    </div>
+
+            <!--
+
+           
                     <div class="overlay wow-intro intro-overlay">
                         <div class="inner">
                             <div class="centered">
@@ -250,80 +366,111 @@
                            
                             </div>
                         </div>
-                    </div><!-- /.wow-intro -->
+                    
 
-                    <!-- WOW 1 -->
+                    
                     <div class="overlay wow-b1">
                         <div class="inner">
                             <div class="centered">
-                                <p class="info-heading">Peak Subscriber Numbers</p>
+                            	
+
+                                <p class="info-heading">TECH-MEME-ATHON</p>
+                                
+                                <div style="overflow: auto; width:500px; height:300px;">
+                                
+                                 
                                 <div class="inner-content">
-                                    <p class="info-sub-heading">Did you know?</p>
-                                    <p>At its peak (2011), World of Warcraft was bigger than the real world's fifth-largest city.</p>
-                                    <ul class="disc-stat">
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="size-1">WOW</span>
-                                                    <span class="num">12</span>
-                                                    <span class="size-2">Million</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="size-1">Moscow</span>
-                                                    <span class="num">11.5</span>
-                                                    <span class="size-2">Million</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
+        						<p id="demo">Make a technical meme on a template of your choice. 
+						
+♦ Meme should include at least ONE technical term or phrase 
+♦ Winners will be decided on the basis of direct likes. For a like to be counted, the page should be liked first. 
+♦ The top four memes will be awarded – two on the basis of number of likes, and two will be Jury’s choice. 
+♦ A maximum of two entries are allowed per person. 
+♦ PLAGIARISM IS NOT ALLOWED. Plagiarised content will be disqualified. 
+Date of Submission : 20--26 August, 2017 
+Participate and win exciting prizes! 
+Send in your entries, alongwith your name and college to: innerve.techevents@gmail.com
+								</p>
+
+								<button onclick="myFunction()">Instructions</button>						
+
+								<script>
+			
+									function myFunction(){
+										getElementById("demo").innerHTML=" 1. Login to become registered user. 2. Don't use unfair means to pay reg fee at gcr.";
+									}
+	  							  </script>
+							
+                               </div>
+                            </div>    
+                          
+	
+	
                                  <div id="element1">
-                            <p class="explore"><span></span>Explore Further</p>
-                            </div>
-                            <div id="element2">
-                            <p class="explore"><span></span>Register</p>
-                            </div>
-                            </div>
+
+                            <p class="explore"><span></span>REGISTER</p>
+                                </div>
+                                <div id=element2" style="position:relative; bottom:15px">
+                            <a href='#'><i class="fa fa-facebook-square fa-5x" aria-hidden="true" ></i></a>
+                                </div>
+                            
                         </div>
-                    </div><!-- /.wow-b1 -->
+                        </div>
+                    </div>
+
+
+					-->
+
+                    <!-- /.wow-b1 -->
 
                     <!-- WOW 2 -->
                     <div class="overlay wow-b2">
                         <div class="inner">
                             <div class="centered">
-                                <p class="info-heading">Currency Conversion</p>
+                                <p class="info-heading"> TECH MEME ATHON</p>
+                                <div style="overflow: auto; width:500px; height:300px;">
                                 <div class="inner-content">
+                                    <!--
                                     <p class="info-sub-heading">Did you know?</p>
-                                    <p>&pound;1 in the real world is worth the equivalent of 1,429 Gold units in World of Warcraft.</p>
-                                    <ul class="disc-stat">
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="num">1</span>
-                                                    <span class="size-2">Pound <span class="pound">(&pound;)</span></span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="num large-num">1,429</span>
-                                                    <span class="size-2">Gold</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                    -->
+                                    <p id="demo">Make a technical meme on a template of your choice. <br>
+                            
+                                        ♦ Meme should include at least ONE technical term or phrase <br>
+                                        ♦ Winners will be decided on the basis of direct likes. For a like to be counted, the page should be liked first. <br>
+                                        ♦ The top four memes will be awarded – two on the basis of number of likes, and two will be Jury’s choice. <br>
+                                        ♦ A maximum of two entries are allowed per person. <br>
+                                        ♦ PLAGIARISM IS NOT ALLOWED. Plagiarised content will be disqualified. <br>
+                                        Date of Submission : 20--26 August, 2017 <br>
+                                        Participate and win exciting prizes! <br>
+                                        Send in your entries, alongwith your name and college to: innerve.techevents@gmail.com <br>
+                                    </p>
                                 </div>
-                                 <div id="element1">
-                            <p class="explore"><span></span>Explore Further</p>
-                            </div>
-                            <div id="element2">
-                            <p class="explore"><span></span>Register</p>
-                            </div>
+                                </div>
+                                <br>
+                                <br>
+                                <!--
+                                class="explore" onclick="myFunction()" style="background-color:transparent; border:transparent;
+                                -->
+                                <div id="element1" style="position:relative; bottom:12px">
+                                <img src="rules.png" onclick="myFunction()" id="rules">
+                                </div>
+                                <!-- <p id="demo"></p> -->
+                                <script>
+                                    function myFunction(){
+                                        document.getElementById("demo").innerHTML = "1. Login to become registered user <br> 2. Dont use unfair means  <br> 3. Price Money may vary <br>  4. pay reg fee at gcr ";
+                                }
+                                </script>
+                                
+                              
+                                <div id="element2" style="height:10px">
+                                    <a href='#'><p class="explore"><span></span>REGISTER</p></a>
+                                </div>
+                                <div id="element3" style="position:relative; bottom:19px">
+                                    <a href='#'><i class="fa fa-facebook-square fa-4x" aria-hidden="true" ></i></a>
+                                </div>
+                                <div id="element4" style="height:10px">
+                                <p class="explore"><span></span>Explore</p>
+                                </div>
                             </div>
                         </div>
                     </div><!-- /.wow-b2 -->
@@ -332,41 +479,50 @@
                     <div class="overlay wow-b3">
                         <div class="inner">
                             <div class="centered">
-                                <p class="info-heading">Wealth Distribution</p>
+                                <p class="info-heading"> TECH MEME ATHON</p>
+                                <div style="overflow: auto; width:500px; height:300px;">
                                 <div class="inner-content">
+                                    <!--
                                     <p class="info-sub-heading">Did you know?</p>
-                                    <p>The wealth distribution is actually more equal in the Warcraft universe than it is in real life! The average player has 80,000 gold, equal to roughly $91.20.</p>
-                                    <ul class="disc-stat">
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="size-3">25<span class="inline-percent">%</span> Own</span>
-                                                    <span class="percent-box">
-                                                        <span class="num">84<span class="percent">%</span></span>
-                                                    </span>
-                                                    <span class="size-3">Game's Wealth</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="size-3">1<span class="inline-percent">%</span> Own</span>
-                                                    <span class="percent-box">
-                                                        <span class="num">35<span class="percent">%</span></span>
-                                                    </span>
-                                                    <span class="size-3">World's Wealth</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                    -->
+                                    <p id="demo">Make a technical meme on a template of your choice. <br>
+                            
+                                        ♦ Meme should include at least ONE technical term or phrase <br>
+                                        ♦ Winners will be decided on the basis of direct likes. For a like to be counted, the page should be liked first. <br>
+                                        ♦ The top four memes will be awarded – two on the basis of number of likes, and two will be Jury’s choice. <br>
+                                        ♦ A maximum of two entries are allowed per person. <br>
+                                        ♦ PLAGIARISM IS NOT ALLOWED. Plagiarised content will be disqualified. <br>
+                                        Date of Submission : 20--26 August, 2017 <br>
+                                        Participate and win exciting prizes! <br>
+                                        Send in your entries, alongwith your name and college to: innerve.techevents@gmail.com <br>
+                                    </p>
                                 </div>
-                                 <div id="element1">
-                            <p class="explore"><span></span>Explore Further</p>
-                            </div>
-                            <div id="element2">
-                            <p class="explore"><span></span>Register</p>
-                            </div>
+                                </div>
+                                <br>
+                                <br>
+                                <!--
+                                class="explore" onclick="myFunction()" style="background-color:transparent; border:transparent;
+                                -->
+                                <div id="element1" style="position:relative; bottom:12px">
+                                <img src="rules.png" onclick="myFunction()" id="rules">
+                                </div>
+                                <!-- <p id="demo"></p> -->
+                                <script>
+                                    function myFunction(){
+                                        document.getElementById("demo").innerHTML = "1. Login to become registered user <br> 2. Dont use unfair means  <br> 3. Price Money may vary <br>  4. pay reg fee at gcr ";
+                                }
+                                </script>
+                                
+                              
+                                <div id="element2" style="height:10px">
+                                    <a href='#'><p class="explore"><span></span>REGISTER</p></a>
+                                </div>
+                                <div id="element3" style="position:relative; bottom:19px">
+                                    <a href='#'><i class="fa fa-facebook-square fa-4x" aria-hidden="true" ></i></a>
+                                </div>
+                                <div id="element4" style="height:10px">
+                                <p class="explore"><span></span>Explore</p>
+                                </div>
                             </div>
                         </div>
                     </div><!-- /.wow-b3 -->
@@ -375,41 +531,50 @@
                     <div class="overlay wow-b4">
                         <div class="inner">
                             <div class="centered">
-                                <p class="info-heading">Gender Distribution</p>
+                                <p class="info-heading"> TECH MEME ATHON</p>
+                                <div style="overflow: auto; width:500px; height:300px;">
                                 <div class="inner-content">
+                                    <!--
                                     <p class="info-sub-heading">Did you know?</p>
-                                    <p>World of Warcraft is predominantly male, with a gender divide which matches that of the equally male-dominated United States Military Academy at West Point.</p>
-                                    <ul class="disc-stat">
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="size-1">WOW</span>
-                                                    <span class="percent-box">
-                                                        <span class="num">84<span class="percent">%</span></span>
-                                                    </span>
-                                                    <span class="size-2">Male</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="size-3">US Military</span>
-                                                    <span class="percent-box">
-                                                        <span class="num">83<span class="percent">%</span></span>
-                                                    </span>
-                                                    <span class="size-2">Male</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                    -->
+                                    <p id="demo">Make a technical meme on a template of your choice. <br>
+                            
+                                        ♦ Meme should include at least ONE technical term or phrase <br>
+                                        ♦ Winners will be decided on the basis of direct likes. For a like to be counted, the page should be liked first. <br>
+                                        ♦ The top four memes will be awarded – two on the basis of number of likes, and two will be Jury’s choice. <br>
+                                        ♦ A maximum of two entries are allowed per person. <br>
+                                        ♦ PLAGIARISM IS NOT ALLOWED. Plagiarised content will be disqualified. <br>
+                                        Date of Submission : 20--26 August, 2017 <br>
+                                        Participate and win exciting prizes! <br>
+                                        Send in your entries, alongwith your name and college to: innerve.techevents@gmail.com <br>
+                                    </p>
                                 </div>
-                                 <div id="element1">
-                            <p class="explore"><span></span>Explore Further</p>
-                            </div>
-                            <div id="element2">
-                            <p class="explore"><span></span>Register</p>
-                            </div>
+                                </div>
+                                <br>
+                                <br>
+                                <!--
+                                class="explore" onclick="myFunction()" style="background-color:transparent; border:transparent;
+                                -->
+                                <div id="element1" style="position:relative; bottom:12px">
+                                <img src="rules.png" onclick="myFunction()" id="rules">
+                                </div>
+                                <!-- <p id="demo"></p> -->
+                                <script>
+                                    function myFunction(){
+                                        document.getElementById("demo").innerHTML = "1. Login to become registered user <br> 2. Dont use unfair means  <br> 3. Price Money may vary <br>  4. pay reg fee at gcr ";
+                                }
+                                </script>
+                                
+                              
+                                <div id="element2" style="height:10px">
+                                    <a href='#'><p class="explore"><span></span>REGISTER</p></a>
+                                </div>
+                                <div id="element3" style="position:relative; bottom:19px">
+                                    <a href='#'><i class="fa fa-facebook-square fa-4x" aria-hidden="true" ></i></a>
+                                </div>
+                                <div id="element4" style="height:10px">
+                                <p class="explore"><span></span>Explore</p>
+                                </div>
                             </div>
                         </div>
                     </div><!-- /.wow-b4 -->
@@ -418,17 +583,50 @@
                     <div class="overlay wow-b5">
                         <div class="inner">
                             <div class="centered">
-                                <p class="info-heading">World<br />History</p>
+                                <p class="info-heading"> TECH MEME ATHON</p>
+                                <div style="overflow: auto; width:500px; height:300px;">
                                 <div class="inner-content">
+                                    <!--
                                     <p class="info-sub-heading">Did you know?</p>
-                                    <p>On September 3rd 2005, the World of Warcraft developers released a new spell into the game called "Corrupted Blood", which temporarily drained health and affected any nearby players. The spell was only intended to be used in one high-level area, but an unfortunate glitch meant that the contagious affliction soon made its way across the map, killing off low-level players and causing a pandemic which emptied cities and drastically changed the style of gameplay as healthy players sought shelter from the plague.  Eventually the developers fixed the glitch, and found an unexpected use for the accident, as scientists and government officials used the emergent player behaviour as a model for epidemic and anti-terrorism research.</p>
+                                    -->
+                                    <p id="demo">Make a technical meme on a template of your choice. <br>
+                            
+                                        ♦ Meme should include at least ONE technical term or phrase <br>
+                                        ♦ Winners will be decided on the basis of direct likes. For a like to be counted, the page should be liked first. <br>
+                                        ♦ The top four memes will be awarded – two on the basis of number of likes, and two will be Jury’s choice. <br>
+                                        ♦ A maximum of two entries are allowed per person. <br>
+                                        ♦ PLAGIARISM IS NOT ALLOWED. Plagiarised content will be disqualified. <br>
+                                        Date of Submission : 20--26 August, 2017 <br>
+                                        Participate and win exciting prizes! <br>
+                                        Send in your entries, alongwith your name and college to: innerve.techevents@gmail.com <br>
+                                    </p>
                                 </div>
-                                 <div id="element1">
-                            <p class="explore"><span></span>Explore Further</p>
-                            </div>
-                            <div id="element2">
-                            <p class="explore"><span></span>Register</p>
-                            </div>
+                                </div>
+                                <br>
+                                <br>
+                                <!--
+                                class="explore" onclick="myFunction()" style="background-color:transparent; border:transparent;
+                                -->
+                                <div id="element1" style="position:relative; bottom:12px">
+                                <img src="rules.png" onclick="myFunction()" id="rules">
+                                </div>
+                                <!-- <p id="demo"></p> -->
+                                <script>
+                                    function myFunction(){
+                                        document.getElementById("demo").innerHTML = "1. Login to become registered user <br> 2. Dont use unfair means  <br> 3. Price Money may vary <br>  4. pay reg fee at gcr ";
+                                }
+                                </script>
+                                
+                              
+                                <div id="element2" style="height:10px">
+                                    <a href='#'><p class="explore"><span></span>REGISTER</p></a>
+                                </div>
+                                <div id="element3" style="position:relative; bottom:19px">
+                                    <a href='#'><i class="fa fa-facebook-square fa-4x" aria-hidden="true" ></i></a>
+                                </div>
+                                <div id="element4" style="height:10px">
+                                <p class="explore"><span></span>Explore</p>
+                                </div>
                             </div>
                         </div>
                     </div><!-- /.wow-b5 -->
@@ -437,37 +635,50 @@
                     <div class="overlay wow-b6">
                         <div class="inner">
                             <div class="centered">
-                                <p class="info-heading">Information Storage</p>
+                                <p class="info-heading"> TECH MEME ATHON</p>
+                                <div style="overflow: auto; width:500px; height:300px;">
                                 <div class="inner-content">
+                                    <!--
                                     <p class="info-sub-heading">Did you know?</p>
-                                    <p>World of Warcraft uses 1.3 petabytes (1.3 million GB) of storage to maintain the game. That's 2,760 500GB hard drives, and similar to the storage occupied by every photo on Facebook (1.5PB).</p>
-                                    <ul class="disc-stat">
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="size-1">WOW</span>
-                                                    <span class="num">1.3</span>
-                                                    <span class="size-2">Petabytes</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="size-1">Facebook</span>
-                                                    <span class="num">1.5</span>
-                                                    <span class="size-2">Petabytes</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                    -->
+                                    <p id="demo">Make a technical meme on a template of your choice. <br>
+                            
+                                        ♦ Meme should include at least ONE technical term or phrase <br>
+                                        ♦ Winners will be decided on the basis of direct likes. For a like to be counted, the page should be liked first. <br>
+                                        ♦ The top four memes will be awarded – two on the basis of number of likes, and two will be Jury’s choice. <br>
+                                        ♦ A maximum of two entries are allowed per person. <br>
+                                        ♦ PLAGIARISM IS NOT ALLOWED. Plagiarised content will be disqualified. <br>
+                                        Date of Submission : 20--26 August, 2017 <br>
+                                        Participate and win exciting prizes! <br>
+                                        Send in your entries, alongwith your name and college to: innerve.techevents@gmail.com <br>
+                                    </p>
                                 </div>
-                                 <div id="element1">
-                            <p class="explore"><span></span>Explore Further</p>
-                            </div>
-                            <div id="element2">
-                            <p class="explore"><span></span>Register</p>
-                            </div>
+                                </div>
+                                <br>
+                                <br>
+                                <!--
+                                class="explore" onclick="myFunction()" style="background-color:transparent; border:transparent;
+                                -->
+                                <div id="element1" style="position:relative; bottom:12px">
+                                <img src="rules.png" onclick="myFunction()" id="rules">
+                                </div>
+                                <!-- <p id="demo"></p> -->
+                                <script>
+                                    function myFunction(){
+                                        document.getElementById("demo").innerHTML = "1. Login to become registered user <br> 2. Dont use unfair means  <br> 3. Price Money may vary <br>  4. pay reg fee at gcr ";
+                                }
+                                </script>
+                                
+                              
+                                <div id="element2" style="height:10px">
+                                    <a href='#'><p class="explore"><span></span>REGISTER</p></a>
+                                </div>
+                                <div id="element3" style="position:relative; bottom:19px">
+                                    <a href='#'><i class="fa fa-facebook-square fa-4x" aria-hidden="true" ></i></a>
+                                </div>
+                                <div id="element4" style="height:10px">
+                                <p class="explore"><span></span>Explore</p>
+                                </div>
                             </div>
                         </div>
                     </div><!-- /.wow-b6 -->
@@ -476,47 +687,50 @@
                     <div class="overlay wow-b7">
                         <div class="inner">
                             <div class="centered">
-                                <p class="info-heading">Player<br /> Distribution</p>
+                                <p class="info-heading"> TECH MEME ATHON</p>
+                                <div style="overflow: auto; width:500px; height:300px;">
                                 <div class="inner-content">
+                                    <!--
                                     <p class="info-sub-heading">Did you know?</p>
-                                    <p>Map of realms (servers) representing player distribution in the digital world.</p>
-                                    <ul class="map-list">
-                                        <li>
-                                            <img src="img/vw/maps/wow-1.png" alt="Map Image">
-                                            <div class="content">
-                                                <span class="size-1">USA</span>
-                                                <span class="num">241</span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <img src="img/vw/maps/wow-2.png" alt="Map Image">
-                                            <div class="content">
-                                                <span class="size-1">Mainland China</span>
-                                                <span class="num">179</span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <img src="img/vw/maps/wow-3.png" alt="Map Image">
-                                            <div class="content">
-                                                <span class="size-1">UK</span>
-                                                <span class="num">109</span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <img src="img/vw/maps/wow-4.png" alt="Map Image">
-                                            <div class="content">
-                                                <span class="size-1">Germany</span>
-                                                <span class="num">87</span>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                    -->
+                                    <p id="demo">Make a technical meme on a template of your choice. <br>
+                            
+                                        ♦ Meme should include at least ONE technical term or phrase <br>
+                                        ♦ Winners will be decided on the basis of direct likes. For a like to be counted, the page should be liked first. <br>
+                                        ♦ The top four memes will be awarded – two on the basis of number of likes, and two will be Jury’s choice. <br>
+                                        ♦ A maximum of two entries are allowed per person. <br>
+                                        ♦ PLAGIARISM IS NOT ALLOWED. Plagiarised content will be disqualified. <br>
+                                        Date of Submission : 20--26 August, 2017 <br>
+                                        Participate and win exciting prizes! <br>
+                                        Send in your entries, alongwith your name and college to: innerve.techevents@gmail.com <br>
+                                    </p>
                                 </div>
-                                 <div id="element1">
-                            <p class="explore"><span></span>Explore Further</p>
-                            </div>
-                            <div id="element2">
-                            <p class="explore"><span></span>Register</p>
-                            </div>
+                                </div>
+                                <br>
+                                <br>
+                                <!--
+                                class="explore" onclick="myFunction()" style="background-color:transparent; border:transparent;
+                                -->
+                                <div id="element1" style="position:relative; bottom:12px">
+                                <img src="rules.png" onclick="myFunction()" id="rules">
+                                </div>
+                                <!-- <p id="demo"></p> -->
+                                <script>
+                                    function myFunction(){
+                                        document.getElementById("demo").innerHTML = "1. Login to become registered user <br> 2. Dont use unfair means  <br> 3. Price Money may vary <br>  4. pay reg fee at gcr ";
+                                }
+                                </script>
+                                
+                              
+                                <div id="element2" style="height:10px">
+                                    <a href='#'><p class="explore"><span></span>REGISTER</p></a>
+                                </div>
+                                <div id="element3" style="position:relative; bottom:19px">
+                                    <a href='#'><i class="fa fa-facebook-square fa-4x" aria-hidden="true" ></i></a>
+                                </div>
+                                <div id="element4" style="height:10px">
+                                <p class="explore"><span></span>Explore</p>
+                                </div>
                             </div>
                         </div>
                     </div><!-- /.wow-b7 -->
@@ -532,7 +746,7 @@
                                 <div class="inner-content">
                                     <p>Here are some online events.</p>
                                 </div>
-                                <p class="explore"><span></span>Explore Further</p>
+                                <p class="explore"><span></span>Explore</p>
                             </div>
                         </div>
                     </div><!-- /.eve-intro -->
@@ -540,37 +754,50 @@
                     <div class="overlay eve-b1">
                         <div class="inner">
                             <div class="centered">
-                                <p class="info-heading">Peak Subscriber Numbers</p>
+                               <p class="info-heading"> TECH MEME ATHON</p>
+                                <div style="overflow: auto; width:500px; height:300px;">
                                 <div class="inner-content">
+                                    <!--
                                     <p class="info-sub-heading">Did you know?</p>
-                                    <p>EVE online may be small for a virtual galaxy, but it's larger than Scotland's capital city!</p>
-                                    <ul class="disc-stat">
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="size-1">EVE online</span>
-                                                    <span class="num">500</span>
-                                                    <span class="size-2">Thousand</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="size-1">Edinburgh</span>
-                                                    <span class="num">495</span>
-                                                    <span class="size-2">Thousand</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                    -->
+                                    <p id="demo">Make a technical meme on a template of your choice. <br>
+                            
+                                        ♦ Meme should include at least ONE technical term or phrase <br>
+                                        ♦ Winners will be decided on the basis of direct likes. For a like to be counted, the page should be liked first. <br>
+                                        ♦ The top four memes will be awarded – two on the basis of number of likes, and two will be Jury’s choice. <br>
+                                        ♦ A maximum of two entries are allowed per person. <br>
+                                        ♦ PLAGIARISM IS NOT ALLOWED. Plagiarised content will be disqualified. <br>
+                                        Date of Submission : 20--26 August, 2017 <br>
+                                        Participate and win exciting prizes! <br>
+                                        Send in your entries, alongwith your name and college to: innerve.techevents@gmail.com <br>
+                                    </p>
                                 </div>
-                                 <div id="element1">
-                            <p class="explore"><span></span>Explore Further</p>
-                            </div>
-                            <div id="element2">
-                            <p class="explore"><span></span>Register</p>
-                            </div>
+                                </div>
+                                <br>
+                                <br>
+                                <!--
+                                class="explore" onclick="myFunction()" style="background-color:transparent; border:transparent;
+                                -->
+                                <div id="element1" style="position:relative; bottom:12px">
+                                <img src="rules.png" onclick="myFunction()" id="rules">
+                                </div>
+                                <!-- <p id="demo"></p> -->
+                                <script>
+                                    function myFunction(){
+                                        document.getElementById("demo").innerHTML = "1. Login to become registered user <br> 2. Dont use unfair means  <br> 3. Price Money may vary <br>  4. pay reg fee at gcr ";
+                                }
+                                </script>
+                                
+                              
+                                <div id="element2" style="height:10px">
+                                    <a href='#'><p class="explore"><span></span>REGISTER</p></a>
+                                </div>
+                                <div id="element3" style="position:relative; bottom:19px">
+                                    <a href='#'><i class="fa fa-facebook-square fa-4x" aria-hidden="true" ></i></a>
+                                </div>
+                                <div id="element4" style="height:10px">
+                                <p class="explore"><span></span>Explore</p>
+                                </div>
                             </div>
                         </div>
                     </div><!-- /.eve-b1 -->
@@ -579,35 +806,50 @@
                     <div class="overlay eve-b2">
                         <div class="inner">
                             <div class="centered">
-                                <p class="info-heading">Currency Conversion</p>
+                                <p class="info-heading"> TECH MEME ATHON</p>
+                                <div style="overflow: auto; width:500px; height:300px;">
                                 <div class="inner-content">
+                                    <!--
                                     <p class="info-sub-heading">Did you know?</p>
-                                    <p>&pound;1 in the real world is worth the equivalent of 50,822,466 ISK in EVE Online.</p>
-                                    <ul class="disc-stat">
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="num">1</span>
-                                                    <span class="size-2">Pound <span class="pound">(&pound;)</span></span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="size-4">50,822,466</span>
-                                                    <span class="size-2">ISK</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                    -->
+                                    <p id="demo">Make a technical meme on a template of your choice. <br>
+                            
+                                        ♦ Meme should include at least ONE technical term or phrase <br>
+                                        ♦ Winners will be decided on the basis of direct likes. For a like to be counted, the page should be liked first. <br>
+                                        ♦ The top four memes will be awarded – two on the basis of number of likes, and two will be Jury’s choice. <br>
+                                        ♦ A maximum of two entries are allowed per person. <br>
+                                        ♦ PLAGIARISM IS NOT ALLOWED. Plagiarised content will be disqualified. <br>
+                                        Date of Submission : 20--26 August, 2017 <br>
+                                        Participate and win exciting prizes! <br>
+                                        Send in your entries, alongwith your name and college to: innerve.techevents@gmail.com <br>
+                                    </p>
                                 </div>
-                                 <div id="element1">
-                            <p class="explore"><span></span>Explore Further</p>
-                            </div>
-                            <div id="element2">
-                            <p class="explore"><span></span>Register</p>
-                            </div>
+                                </div>
+                                <br>
+                                <br>
+                                <!--
+                                class="explore" onclick="myFunction()" style="background-color:transparent; border:transparent;
+                                -->
+                                <div id="element1" style="position:relative; bottom:12px">
+                                <img src="rules.png" onclick="myFunction()" id="rules">
+                                </div>
+                                <!-- <p id="demo"></p> -->
+                                <script>
+                                    function myFunction(){
+                                        document.getElementById("demo").innerHTML = "1. Login to become registered user <br> 2. Dont use unfair means  <br> 3. Price Money may vary <br>  4. pay reg fee at gcr ";
+                                }
+                                </script>
+                                
+                              
+                                <div id="element2" style="height:10px">
+                                    <a href='#'><p class="explore"><span></span>REGISTER</p></a>
+                                </div>
+                                <div id="element3" style="position:relative; bottom:19px">
+                                    <a href='#'><i class="fa fa-facebook-square fa-4x" aria-hidden="true" ></i></a>
+                                </div>
+                                <div id="element4" style="height:10px">
+                                <p class="explore"><span></span>Explore</p>
+                                </div>
                             </div>
                         </div>
                     </div><!-- /.eve-b2 -->
@@ -616,37 +858,50 @@
                     <div class="overlay eve-b3">
                         <div class="inner">
                             <div class="centered">
-                                <p class="info-heading">Known Solar Systems</p>
+                                <p class="info-heading"> TECH MEME ATHON</p>
+                                <div style="overflow: auto; width:500px; height:300px;">
                                 <div class="inner-content">
+                                    <!--
                                     <p class="info-sub-heading">Did you know?</p>
-                                    <p>We only know of 797 solar systems containing gravitationally-bound objects or planets (2013). In EVE Online, which is set in the year 23341, this number is an astronomical 7,699.</p>
-                                    <ul class="disc-stat">
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="size-1">Eve</span>
-                                                    <span class="num">7699</span>
-                                                    <span class="size-3">Solar Systems</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="size-1">Real Life</span>
-                                                    <span class="num">797</span>
-                                                    <span class="size-3">Planetary Systems</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                    -->
+                                    <p id="demo">Make a technical meme on a template of your choice. <br>
+                            
+                                        ♦ Meme should include at least ONE technical term or phrase <br>
+                                        ♦ Winners will be decided on the basis of direct likes. For a like to be counted, the page should be liked first. <br>
+                                        ♦ The top four memes will be awarded – two on the basis of number of likes, and two will be Jury’s choice. <br>
+                                        ♦ A maximum of two entries are allowed per person. <br>
+                                        ♦ PLAGIARISM IS NOT ALLOWED. Plagiarised content will be disqualified. <br>
+                                        Date of Submission : 20--26 August, 2017 <br>
+                                        Participate and win exciting prizes! <br>
+                                        Send in your entries, alongwith your name and college to: innerve.techevents@gmail.com <br>
+                                    </p>
                                 </div>
-                                 <div id="element1">
-                            <p class="explore"><span></span>Explore Further</p>
-                            </div>
-                            <div id="element2">
-                            <p class="explore"><span></span>Register</p>
-                            </div>
+                                </div>
+                                <br>
+                                <br>
+                                <!--
+                                class="explore" onclick="myFunction()" style="background-color:transparent; border:transparent;
+                                -->
+                                <div id="element1" style="position:relative; bottom:12px">
+                                <img src="rules.png" onclick="myFunction()" id="rules">
+                                </div>
+                                <!-- <p id="demo"></p> -->
+                                <script>
+                                    function myFunction(){
+                                        document.getElementById("demo").innerHTML = "1. Login to become registered user <br> 2. Dont use unfair means  <br> 3. Price Money may vary <br>  4. pay reg fee at gcr ";
+                                }
+                                </script>
+                                
+                              
+                                <div id="element2" style="height:10px">
+                                    <a href='#'><p class="explore"><span></span>REGISTER</p></a>
+                                </div>
+                                <div id="element3" style="position:relative; bottom:19px">
+                                    <a href='#'><i class="fa fa-facebook-square fa-4x" aria-hidden="true" ></i></a>
+                                </div>
+                                <div id="element4" style="height:10px">
+                                <p class="explore"><span></span>Explore</p>
+                                </div>
                             </div>
                         </div>
                     </div><!-- /.eve-b3 -->
@@ -655,41 +910,50 @@
                     <div class="overlay eve-b4">
                         <div class="inner">
                             <div class="centered">
-                                <p class="info-heading">Gender<br />Distribution</p>
+                                <p class="info-heading"> TECH MEME ATHON</p>
+                                <div style="overflow: auto; width:500px; height:300px;">
                                 <div class="inner-content">
+                                    <!--
                                     <p class="info-sub-heading">Did you know?</p>
-                                    <p>While only ten per cent of our space explorers have been female, this is still a higher percentage than the number of women subscribed to EVE Online.</p>
-                                    <ul class="disc-stat">
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="size-1">Eve Online</span>
-                                                    <span class="percent-box">
-                                                        <span class="num">96<span class="percent">%</span></span>
-                                                    </span>
-                                                    <span class="size-4">Male</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="size-1">Astronaut</span>
-                                                    <span class="percent-box">
-                                                        <span class="num">90<span class="percent">%</span></span>
-                                                    </span>
-                                                    <span class="size-4">Male</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                    -->
+                                    <p id="demo">Make a technical meme on a template of your choice. <br>
+                            
+                                        ♦ Meme should include at least ONE technical term or phrase <br>
+                                        ♦ Winners will be decided on the basis of direct likes. For a like to be counted, the page should be liked first. <br>
+                                        ♦ The top four memes will be awarded – two on the basis of number of likes, and two will be Jury’s choice. <br>
+                                        ♦ A maximum of two entries are allowed per person. <br>
+                                        ♦ PLAGIARISM IS NOT ALLOWED. Plagiarised content will be disqualified. <br>
+                                        Date of Submission : 20--26 August, 2017 <br>
+                                        Participate and win exciting prizes! <br>
+                                        Send in your entries, alongwith your name and college to: innerve.techevents@gmail.com <br>
+                                    </p>
                                 </div>
-                                 <div id="element1">
-                            <p class="explore"><span></span>Explore Further</p>
-                            </div>
-                            <div id="element2">
-                            <p class="explore"><span></span>Register</p>
-                            </div>
+                                </div>
+                                <br>
+                                <br>
+                                <!--
+                                class="explore" onclick="myFunction()" style="background-color:transparent; border:transparent;
+                                -->
+                                <div id="element1" style="position:relative; bottom:12px">
+                                <img src="rules.png" onclick="myFunction()" id="rules">
+                                </div>
+                                <!-- <p id="demo"></p> -->
+                                <script>
+                                    function myFunction(){
+                                        document.getElementById("demo").innerHTML = "1. Login to become registered user <br> 2. Dont use unfair means  <br> 3. Price Money may vary <br>  4. pay reg fee at gcr ";
+                                }
+                                </script>
+                                
+                              
+                                <div id="element2" style="height:10px">
+                                    <a href='#'><p class="explore"><span></span>REGISTER</p></a>
+                                </div>
+                                <div id="element3" style="position:relative; bottom:19px">
+                                    <a href='#'><i class="fa fa-facebook-square fa-4x" aria-hidden="true" ></i></a>
+                                </div>
+                                <div id="element4" style="height:10px">
+                                <p class="explore"><span></span>Explore</p>
+                                </div>
                             </div>
                         </div>
                     </div><!-- /.eve-b4 -->
@@ -698,17 +962,50 @@
                     <div class="overlay eve-b5">
                         <div class="inner">
                             <div class="centered">
-                                <p class="info-heading">World History</p>
+                                <p class="info-heading"> TECH MEME ATHON</p>
+                                <div style="overflow: auto; width:500px; height:300px;">
                                 <div class="inner-content">
+                                    <!--
                                     <p class="info-sub-heading">Did you know?</p>
-                                    <p>Perhaps the most well-known event in EVE Online history is the now infamous Mirial assassination, which took place on April 18th 2005. Mirial, the CEO of one of the game's largest corporations, had just warped into the Haras solar system when her lieutenant broadcast a single codeword - "Nicole" - to multiple operatives of the infiltration and assassination group the Guiding Hands Social Club (GHSC). Within minutes every one of her company's office was raided, and her character was permanently destroyed. The operation took ten months to implement, and earned the GHSC a cool 20 billion ISK - much more than the 1 million ISK originally agreed, and with a real-world cash equivalent of just over &pound;10,000, it's the same as the average contract killing in the UK.</p>
+                                    -->
+                                    <p id="demo">Make a technical meme on a template of your choice. <br>
+                            
+                                        ♦ Meme should include at least ONE technical term or phrase <br>
+                                        ♦ Winners will be decided on the basis of direct likes. For a like to be counted, the page should be liked first. <br>
+                                        ♦ The top four memes will be awarded – two on the basis of number of likes, and two will be Jury’s choice. <br>
+                                        ♦ A maximum of two entries are allowed per person. <br>
+                                        ♦ PLAGIARISM IS NOT ALLOWED. Plagiarised content will be disqualified. <br>
+                                        Date of Submission : 20--26 August, 2017 <br>
+                                        Participate and win exciting prizes! <br>
+                                        Send in your entries, alongwith your name and college to: innerve.techevents@gmail.com <br>
+                                    </p>
                                 </div>
-                                 <div id="element1">
-                            <p class="explore"><span></span>Explore Further</p>
-                            </div>
-                            <div id="element2">
-                            <p class="explore"><span></span>Register</p>
-                            </div>
+                                </div>
+                                <br>
+                                <br>
+                                <!--
+                                class="explore" onclick="myFunction()" style="background-color:transparent; border:transparent;
+                                -->
+                                <div id="element1" style="position:relative; bottom:12px">
+                                <img src="rules.png" onclick="myFunction()" id="rules">
+                                </div>
+                                <!-- <p id="demo"></p> -->
+                                <script>
+                                    function myFunction(){
+                                        document.getElementById("demo").innerHTML = "1. Login to become registered user <br> 2. Dont use unfair means  <br> 3. Price Money may vary <br>  4. pay reg fee at gcr ";
+                                }
+                                </script>
+                                
+                              
+                                <div id="element2" style="height:10px">
+                                    <a href='#'><p class="explore"><span></span>REGISTER</p></a>
+                                </div>
+                                <div id="element3" style="position:relative; bottom:19px">
+                                    <a href='#'><i class="fa fa-facebook-square fa-4x" aria-hidden="true" ></i></a>
+                                </div>
+                                <div id="element4" style="height:10px">
+                                <p class="explore"><span></span>Explore</p>
+                                </div>
                             </div>
                         </div>
                     </div><!-- /.eve-b5 -->
@@ -718,37 +1015,50 @@
                     <div class="overlay eve-b6">
                         <div class="inner">
                             <div class="centered">
-                                <p class="info-heading">In-Game<br />Finances</p>
+                               <p class="info-heading"> TECH MEME ATHON</p>
+                                <div style="overflow: auto; width:500px; height:300px;">
                                 <div class="inner-content">
+                                    <!--
                                     <p class="info-sub-heading">Did you know?</p>
-                                    <p>EVE Online's closed economy amounts to around $20million. The profit made by its developers is increasing, with enough to hire professional economists to manage the game's financial system.</p>
-                                    <ul class="disc-stat">
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="size-1">Eve Online</span>
-                                                    <span class="num">20</span>
-                                                    <span class="size-2">Million <span class="pound">($)</span></span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="size-1">CCP</span>
-                                                    <span class="num">300</span>
-                                                    <span class="size-2">Million <span class="pound">($)</span></span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                    -->
+                                    <p id="demo">Make a technical meme on a template of your choice. <br>
+                            
+                                        ♦ Meme should include at least ONE technical term or phrase <br>
+                                        ♦ Winners will be decided on the basis of direct likes. For a like to be counted, the page should be liked first. <br>
+                                        ♦ The top four memes will be awarded – two on the basis of number of likes, and two will be Jury’s choice. <br>
+                                        ♦ A maximum of two entries are allowed per person. <br>
+                                        ♦ PLAGIARISM IS NOT ALLOWED. Plagiarised content will be disqualified. <br>
+                                        Date of Submission : 20--26 August, 2017 <br>
+                                        Participate and win exciting prizes! <br>
+                                        Send in your entries, alongwith your name and college to: innerve.techevents@gmail.com <br>
+                                    </p>
                                 </div>
-                                 <div id="element1">
-                            <p class="explore"><span></span>Explore Further</p>
-                            </div>
-                            <div id="element2">
-                            <p class="explore"><span></span>Register</p>
-                            </div>
+                                </div>
+                                <br>
+                                <br>
+                                <!--
+                                class="explore" onclick="myFunction()" style="background-color:transparent; border:transparent;
+                                -->
+                                <div id="element1" style="position:relative; bottom:12px">
+                                <img src="rules.png" onclick="myFunction()" id="rules">
+                                </div>
+                                <!-- <p id="demo"></p> -->
+                                <script>
+                                    function myFunction(){
+                                        document.getElementById("demo").innerHTML = "1. Login to become registered user <br> 2. Dont use unfair means  <br> 3. Price Money may vary <br>  4. pay reg fee at gcr ";
+                                }
+                                </script>
+                                
+                              
+                                <div id="element2" style="height:10px">
+                                    <a href='#'><p class="explore"><span></span>REGISTER</p></a>
+                                </div>
+                                <div id="element3" style="position:relative; bottom:19px">
+                                    <a href='#'><i class="fa fa-facebook-square fa-4x" aria-hidden="true" ></i></a>
+                                </div>
+                                <div id="element4" style="height:10px">
+                                <p class="explore"><span></span>Explore</p>
+                                </div>
                             </div>
                         </div>
                     </div><!-- /.eve-b6 -->
@@ -757,37 +1067,50 @@
                     <div class="overlay eve-b7">
                         <div class="inner">
                             <div class="centered">
-                                <p class="info-heading">Peak Population Numbers</p>
+                                <p class="info-heading"> TECH MEME ATHON</p>
+                                <div style="overflow: auto; width:500px; height:300px;">
                                 <div class="inner-content">
+                                    <!--
                                     <p class="info-sub-heading">Did you know?</p>
-                                    <p>Conventions are often cited as the biggest gatherings of science fiction fans, but upon combining the biggest years of some of the world's greatest fan gatherings, EVE Online still came out on top.</p>
-                                    <ul class="disc-stat">
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="size-1">Eve Online</span>
-                                                    <span class="num">65</span>
-                                                    <span class="size-2">Thousand</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="size-1">Rivals</span>
-                                                    <span class="num">64</span>
-                                                    <span class="size-2">Thousand</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                    -->
+                                    <p id="demo">Make a technical meme on a template of your choice. <br>
+                            
+                                        ♦ Meme should include at least ONE technical term or phrase <br>
+                                        ♦ Winners will be decided on the basis of direct likes. For a like to be counted, the page should be liked first. <br>
+                                        ♦ The top four memes will be awarded – two on the basis of number of likes, and two will be Jury’s choice. <br>
+                                        ♦ A maximum of two entries are allowed per person. <br>
+                                        ♦ PLAGIARISM IS NOT ALLOWED. Plagiarised content will be disqualified. <br>
+                                        Date of Submission : 20--26 August, 2017 <br>
+                                        Participate and win exciting prizes! <br>
+                                        Send in your entries, alongwith your name and college to: innerve.techevents@gmail.com <br>
+                                    </p>
                                 </div>
-                                 <div id="element1">
-                            <p class="explore"><span></span>Explore Further</p>
-                            </div>
-                            <div id="element2">
-                            <p class="explore"><span></span>Register</p>
-                            </div>
+                                </div>
+                                <br>
+                                <br>
+                                <!--
+                                class="explore" onclick="myFunction()" style="background-color:transparent; border:transparent;
+                                -->
+                                <div id="element1" style="position:relative; bottom:12px">
+                                <img src="rules.png" onclick="myFunction()" id="rules">
+                                </div>
+                                <!-- <p id="demo"></p> -->
+                                <script>
+                                    function myFunction(){
+                                        document.getElementById("demo").innerHTML = "1. Login to become registered user <br> 2. Dont use unfair means  <br> 3. Price Money may vary <br>  4. pay reg fee at gcr ";
+                                }
+                                </script>
+                                
+                              
+                                <div id="element2" style="height:10px">
+                                    <a href='#'><p class="explore"><span></span>REGISTER</p></a>
+                                </div>
+                                <div id="element3" style="position:relative; bottom:19px">
+                                    <a href='#'><i class="fa fa-facebook-square fa-4x" aria-hidden="true" ></i></a>
+                                </div>
+                                <div id="element4" style="height:10px">
+                                <p class="explore"><span></span>Explore</p>
+                                </div>
                             </div>
                         </div>
                     </div><!-- /.eve-b7 -->
@@ -804,7 +1127,7 @@
                                     <p>Here are some tech events</p>
                                 </div>
                                  
-                            <p class="explore"><span></span>Explore Further</p>
+                            <p class="explore"><span></span>Explore</p>
                             
                             
                            
@@ -815,37 +1138,50 @@
                     <div class="overlay secondlife-b1">
                         <div class="inner">
                             <div class="centered">
-                                <p class="info-heading">Peak Population Numbers</p>
+                                <p class="info-heading"> TECH MEME ATHON</p>
+                                <div style="overflow: auto; width:500px; height:300px;">
                                 <div class="inner-content">
+                                    <!--
                                     <p class="info-sub-heading">Did you know?</p>
-                                    <p>The peak population of Second Life's bustling metropolis only just falls short of America's digital capital.</p>
-                                    <ul class="disc-stat">
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="size-1">SL</span>
-                                                    <span class="num">800</span>
-                                                    <span class="size-2">Thousand</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="size-1">San Fran</span>
-                                                    <span class="num">825</span>
-                                                    <span class="size-2">Thousand</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                    -->
+                                    <p id="demo">Make a technical meme on a template of your choice. <br>
+                            
+                                        ♦ Meme should include at least ONE technical term or phrase <br>
+                                        ♦ Winners will be decided on the basis of direct likes. For a like to be counted, the page should be liked first. <br>
+                                        ♦ The top four memes will be awarded – two on the basis of number of likes, and two will be Jury’s choice. <br>
+                                        ♦ A maximum of two entries are allowed per person. <br>
+                                        ♦ PLAGIARISM IS NOT ALLOWED. Plagiarised content will be disqualified. <br>
+                                        Date of Submission : 20--26 August, 2017 <br>
+                                        Participate and win exciting prizes! <br>
+                                        Send in your entries, alongwith your name and college to: innerve.techevents@gmail.com <br>
+                                    </p>
                                 </div>
-                                 <div id="element1">
-                            <p class="explore"><span></span>Explore Further</p>
-                            </div>
-                            <div id="element2">
-                            <p class="explore"><span></span>Register</p>
-                            </div>
+                                </div>
+                                <br>
+                                <br>
+                                <!--
+                                class="explore" onclick="myFunction()" style="background-color:transparent; border:transparent;
+                                -->
+                                <div id="element1" style="position:relative; bottom:12px">
+                                <img src="rules.png" onclick="myFunction()" id="rules">
+                                </div>
+                                <!-- <p id="demo"></p> -->
+                                <script>
+                                    function myFunction(){
+                                        document.getElementById("demo").innerHTML = "1. Login to become registered user <br> 2. Dont use unfair means  <br> 3. Price Money may vary <br>  4. pay reg fee at gcr ";
+                                }
+                                </script>
+                                
+                              
+                                <div id="element2" style="height:10px">
+                                    <a href='#'><p class="explore"><span></span>REGISTER</p></a>
+                                </div>
+                                <div id="element3" style="position:relative; bottom:19px">
+                                    <a href='#'><i class="fa fa-facebook-square fa-4x" aria-hidden="true" ></i></a>
+                                </div>
+                                <div id="element4" style="height:10px">
+                                <p class="explore"><span></span>Explore</p>
+                                </div>
                             </div>
                         </div>
                     </div><!-- /.secondlife-b1 -->
@@ -854,35 +1190,50 @@
                     <div class="overlay secondlife-b2">
                         <div class="inner">
                             <div class="centered">
-                                <p class="info-heading">Currency Conversion</p>
+                               <p class="info-heading"> TECH MEME ATHON</p>
+                                <div style="overflow: auto; width:500px; height:300px;">
                                 <div class="inner-content">
+                                    <!--
                                     <p class="info-sub-heading">Did you know?</p>
-                                    <p>&pound;1 in the real world is worth the equivalent of 410 Linden Dollars in Second Life.</p>
-                                    <ul class="disc-stat">
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="num">1</span>
-                                                    <span class="size-2">Pound <span class="pound">(&pound;)</span></span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="num">410</span>
-                                                    <span class="size-2">Linden <span class="pound">($)</span></span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                    -->
+                                    <p id="demo">Make a technical meme on a template of your choice. <br>
+                            
+                                        ♦ Meme should include at least ONE technical term or phrase <br>
+                                        ♦ Winners will be decided on the basis of direct likes. For a like to be counted, the page should be liked first. <br>
+                                        ♦ The top four memes will be awarded – two on the basis of number of likes, and two will be Jury’s choice. <br>
+                                        ♦ A maximum of two entries are allowed per person. <br>
+                                        ♦ PLAGIARISM IS NOT ALLOWED. Plagiarised content will be disqualified. <br>
+                                        Date of Submission : 20--26 August, 2017 <br>
+                                        Participate and win exciting prizes! <br>
+                                        Send in your entries, alongwith your name and college to: innerve.techevents@gmail.com <br>
+                                    </p>
                                 </div>
-                                 <div id="element1">
-                            <p class="explore"><span></span>Explore Further</p>
-                            </div>
-                            <div id="element2">
-                            <p class="explore"><span></span>Register</p>
-                            </div>
+                                </div>
+                                <br>
+                                <br>
+                                <!--
+                                class="explore" onclick="myFunction()" style="background-color:transparent; border:transparent;
+                                -->
+                                <div id="element1" style="position:relative; bottom:12px">
+                                <img src="rules.png" onclick="myFunction()" id="rules">
+                                </div>
+                                <!-- <p id="demo"></p> -->
+                                <script>
+                                    function myFunction(){
+                                        document.getElementById("demo").innerHTML = "1. Login to become registered user <br> 2. Dont use unfair means  <br> 3. Price Money may vary <br>  4. pay reg fee at gcr ";
+                                }
+                                </script>
+                                
+                              
+                                <div id="element2" style="height:10px">
+                                    <a href='#'><p class="explore"><span></span>REGISTER</p></a>
+                                </div>
+                                <div id="element3" style="position:relative; bottom:19px">
+                                    <a href='#'><i class="fa fa-facebook-square fa-4x" aria-hidden="true" ></i></a>
+                                </div>
+                                <div id="element4" style="height:10px">
+                                <p class="explore"><span></span>Explore</p>
+                                </div>
                             </div>
                         </div>
                     </div><!-- /.secondlife-b2 -->
@@ -891,37 +1242,50 @@
                     <div class="overlay secondlife-b3">
                         <div class="inner">
                             <div class="centered">
-                                <p class="info-heading">Embassy Distribution</p>
+                                <p class="info-heading"> TECH MEME ATHON</p>
+                                <div style="overflow: auto; width:500px; height:300px;">
                                 <div class="inner-content">
+                                    <!--
                                     <p class="info-sub-heading">Did you know?</p>
-                                    <p>Second Life's embassies are used to promote tourism, provide visa advice and even host online "museums".</p>
-                                    <ul class="disc-stat">
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="size-1">SL</span>
-                                                    <span class="num">10</span>
-                                                    <span class="size-2">Embassies</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="size-1">Pyongyang</span>
-                                                    <span class="num">7</span>
-                                                    <span class="size-2">Embassies</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                    -->
+                                    <p id="demo">Make a technical meme on a template of your choice. <br>
+                            
+                                        ♦ Meme should include at least ONE technical term or phrase <br>
+                                        ♦ Winners will be decided on the basis of direct likes. For a like to be counted, the page should be liked first. <br>
+                                        ♦ The top four memes will be awarded – two on the basis of number of likes, and two will be Jury’s choice. <br>
+                                        ♦ A maximum of two entries are allowed per person. <br>
+                                        ♦ PLAGIARISM IS NOT ALLOWED. Plagiarised content will be disqualified. <br>
+                                        Date of Submission : 20--26 August, 2017 <br>
+                                        Participate and win exciting prizes! <br>
+                                        Send in your entries, alongwith your name and college to: innerve.techevents@gmail.com <br>
+                                    </p>
                                 </div>
-                                <div id="element1">
-                            <p class="explore"><span></span>Explore Further</p>
-                            </div>
-                            <div id="element2">
-                            <p class="explore"><span></span>Register</p>
-                            </div>
+                                </div>
+                                <br>
+                                <br>
+                                <!--
+                                class="explore" onclick="myFunction()" style="background-color:transparent; border:transparent;
+                                -->
+                                <div id="element1" style="position:relative; bottom:12px">
+                                <img src="rules.png" onclick="myFunction()" id="rules">
+                                </div>
+                                <!-- <p id="demo"></p> -->
+                                <script>
+                                    function myFunction(){
+                                        document.getElementById("demo").innerHTML = "1. Login to become registered user <br> 2. Dont use unfair means  <br> 3. Price Money may vary <br>  4. pay reg fee at gcr ";
+                                }
+                                </script>
+                                
+                              
+                                <div id="element2" style="height:10px">
+                                    <a href='#'><p class="explore"><span></span>REGISTER</p></a>
+                                </div>
+                                <div id="element3" style="position:relative; bottom:19px">
+                                    <a href='#'><i class="fa fa-facebook-square fa-4x" aria-hidden="true" ></i></a>
+                                </div>
+                                <div id="element4" style="height:10px">
+                                <p class="explore"><span></span>Explore</p>
+                                </div>
                             </div>
                         </div>
                     </div><!-- /.secondlife-b3 -->
@@ -930,41 +1294,50 @@
                     <div class="overlay secondlife-b4">
                         <div class="inner">
                             <div class="centered">
-                                <p class="info-heading">User<br />Growth</p>
+                                <p class="info-heading"> TECH MEME ATHON</p>
+                                <div style="overflow: auto; width:500px; height:300px;">
                                 <div class="inner-content">
+                                    <!--
                                     <p class="info-sub-heading">Did you know?</p>
-                                    <p>Between 2006 and 2011, global internet usage doubled in growth - in the same timeframe, Second Life saw a 4000% increase in users.</p>
-                                    <ul class="disc-stat">
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="size-1">SL</span>
-                                                    <span class="percent-box">
-                                                        <span class="num">4000<span class="percent">%</span></span>
-                                                    </span>
-                                                    <span class="size-3">User Growth</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="inner">
-                                                <div class="center">
-                                                    <span class="size-1">Real Life</span>
-                                                    <span class="percent-box">
-                                                        <span class="num">121<span class="percent">%</span></span>
-                                                    </span>
-                                                    <span class="size-3">User Growth</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                    -->
+                                    <p id="demo">Make a technical meme on a template of your choice. <br>
+                            
+                                        ♦ Meme should include at least ONE technical term or phrase <br>
+                                        ♦ Winners will be decided on the basis of direct likes. For a like to be counted, the page should be liked first. <br>
+                                        ♦ The top four memes will be awarded – two on the basis of number of likes, and two will be Jury’s choice. <br>
+                                        ♦ A maximum of two entries are allowed per person. <br>
+                                        ♦ PLAGIARISM IS NOT ALLOWED. Plagiarised content will be disqualified. <br>
+                                        Date of Submission : 20--26 August, 2017 <br>
+                                        Participate and win exciting prizes! <br>
+                                        Send in your entries, alongwith your name and college to: innerve.techevents@gmail.com <br>
+                                    </p>
                                 </div>
-                                 <div id="element1">
-                            <p class="explore"><span></span>Explore Further</p>
-                            </div>
-                            <div id="element2">
-                            <p class="explore"><span></span>Register</p>
-                            </div>
+                                </div>
+                                <br>
+                                <br>
+                                <!--
+                                class="explore" onclick="myFunction()" style="background-color:transparent; border:transparent;
+                                -->
+                                <div id="element1" style="position:relative; bottom:12px">
+                                <img src="rules.png" onclick="myFunction()" id="rules">
+                                </div>
+                                <!-- <p id="demo"></p> -->
+                                <script>
+                                    function myFunction(){
+                                        document.getElementById("demo").innerHTML = "1. Login to become registered user <br> 2. Dont use unfair means  <br> 3. Price Money may vary <br>  4. pay reg fee at gcr ";
+                                }
+                                </script>
+                                
+                              
+                                <div id="element2" style="height:10px">
+                                    <a href='#'><p class="explore"><span></span>REGISTER</p></a>
+                                </div>
+                                <div id="element3" style="position:relative; bottom:19px">
+                                    <a href='#'><i class="fa fa-facebook-square fa-4x" aria-hidden="true" ></i></a>
+                                </div>
+                                <div id="element4" style="height:10px">
+                                <p class="explore"><span></span>Explore</p>
+                                </div>
                             </div>
                         </div>
                     </div><!-- /.secondlife-b4 -->
@@ -973,17 +1346,50 @@
                     <div class="overlay secondlife-b5">
                         <div class="inner">
                             <div class="centered">
-                                <p class="info-heading">World History</p>
+                                <p class="info-heading"> TECH MEME ATHON</p>
+                                <div style="overflow: auto; width:500px; height:300px;">
                                 <div class="inner-content">
+                                    <!--
                                     <p class="info-sub-heading">Did you know?</p>
-                                    <p>In 2007, Second Life saw a huge financial incident which mirrored the bank crises we've seen in the real world since the start of the recession. When the developers announced that gambling in-game would be officially banned, thousands of users rushed to Ginko Financial, an in-game bank offering astronomical interest rates, to retrieve and sell the currency from their accounts. This caused a run on the bank which eventually resulted in a complete shut-down - wiping out around $750,000 (&pound;457,736) in real world money. The incident has since been used by financial experts across the web as an example of what happens when banks fail to self-regulate.</p>
+                                    -->
+                                    <p id="demo">Make a technical meme on a template of your choice. <br>
+                            
+                                        ♦ Meme should include at least ONE technical term or phrase <br>
+                                        ♦ Winners will be decided on the basis of direct likes. For a like to be counted, the page should be liked first. <br>
+                                        ♦ The top four memes will be awarded – two on the basis of number of likes, and two will be Jury’s choice. <br>
+                                        ♦ A maximum of two entries are allowed per person. <br>
+                                        ♦ PLAGIARISM IS NOT ALLOWED. Plagiarised content will be disqualified. <br>
+                                        Date of Submission : 20--26 August, 2017 <br>
+                                        Participate and win exciting prizes! <br>
+                                        Send in your entries, alongwith your name and college to: innerve.techevents@gmail.com <br>
+                                    </p>
                                 </div>
-                                 <div id="element1">
-                            <p class="explore"><span></span>Explore Further</p>
-                            </div>
-                            <div id="element2">
-                            <p class="explore"><span></span>Register</p>
-                            </div>
+                                </div>
+                                <br>
+                                <br>
+                                <!--
+                                class="explore" onclick="myFunction()" style="background-color:transparent; border:transparent;
+                                -->
+                                <div id="element1" style="position:relative; bottom:12px">
+                                <img src="rules.png" onclick="myFunction()" id="rules">
+                                </div>
+                                <!-- <p id="demo"></p> -->
+                                <script>
+                                    function myFunction(){
+                                        document.getElementById("demo").innerHTML = "1. Login to become registered user <br> 2. Dont use unfair means  <br> 3. Price Money may vary <br>  4. pay reg fee at gcr ";
+                                }
+                                </script>
+                                
+                              
+                                <div id="element2" style="height:10px">
+                                    <a href='#'><p class="explore"><span></span>REGISTER</p></a>
+                                </div>
+                                <div id="element3" style="position:relative; bottom:19px">
+                                    <a href='#'><i class="fa fa-facebook-square fa-4x" aria-hidden="true" ></i></a>
+                                </div>
+                                <div id="element4" style="height:10px">
+                                <p class="explore"><span></span>Explore</p>
+                                </div>
                             </div>
                         </div>
                     </div><!-- /.secondlife-b5 -->
@@ -992,59 +1398,50 @@
                     <div class="overlay secondlife-b6">
                         <div class="inner">
                             <div class="centered">
-                                <p class="info-heading">Language Distribution</p>
+                                <p class="info-heading"> TECH MEME ATHON</p>
+                                <div style="overflow: auto; width:500px; height:300px;">
                                 <div class="inner-content">
+                                    <!--
                                     <p class="info-sub-heading">Did you know?</p>
-                                    <p>English is by far the most popular language in Second Life (SL) - in the real world (RL), the ten most popular languages have a much more even distribution.</p>
-                                    <ul class="map-list">
-                                        <li>
-                                            <img src="img/vw/maps/sl-1.png" alt="Map Image">
-                                            <div class="content">
-                                                <span class="size-1">Second Life</span>
-                                                <span class="percent-box">
-                                                    <span class="num">54<span class="percent">%</span></span>
-                                                </span>
-                                                <span class="size-1">English</span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <img src="img/vw/maps/sl-2.png" alt="Map Image">
-                                            <div class="content">
-                                                <span class="size-1">Real Life</span>
-                                                <span class="percent-box">
-                                                    <span class="num">25<span class="percent">%</span></span>
-                                                </span>
-                                                <span class="size-1">Mandarin</span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <img src="img/vw/maps/sl-3.png" alt="Map Image">
-                                            <div class="content">
-                                                <span class="size-1">Real Life</span>
-                                                <span class="percent-box">
-                                                    <span class="num">18<span class="percent">%</span></span>
-                                                </span>
-                                                <span class="size-1">English</span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <img src="img/vw/maps/sl-4.png" alt="Map Image">
-                                            <div class="content">
-                                                <span class="size-1">Real Life</span>
-                                                <span class="percent-box">
-                                                    <span class="num">13<span class="percent">%</span></span>
-                                                </span>
-                                                <span class="size-1">Spanish</span>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                    -->
+                                    <p id="demo">Make a technical meme on a template of your choice. <br>
+                            
+                                        ♦ Meme should include at least ONE technical term or phrase <br>
+                                        ♦ Winners will be decided on the basis of direct likes. For a like to be counted, the page should be liked first. <br>
+                                        ♦ The top four memes will be awarded – two on the basis of number of likes, and two will be Jury’s choice. <br>
+                                        ♦ A maximum of two entries are allowed per person. <br>
+                                        ♦ PLAGIARISM IS NOT ALLOWED. Plagiarised content will be disqualified. <br>
+                                        Date of Submission : 20--26 August, 2017 <br>
+                                        Participate and win exciting prizes! <br>
+                                        Send in your entries, alongwith your name and college to: innerve.techevents@gmail.com <br>
+                                    </p>
                                 </div>
-                                 <div id="element1">
-                            <p class="explore"><span></span>Explore Further</p>
-                            </div>
-                            <div id="element2">
-                            <p class="explore"><span></span>Register</p>
-                            </div>
+                                </div>
+                                <br>
+                                <br>
+                                <!--
+                                class="explore" onclick="myFunction()" style="background-color:transparent; border:transparent;
+                                -->
+                                <div id="element1" style="position:relative; bottom:12px">
+                                <img src="rules.png" onclick="myFunction()" id="rules">
+                                </div>
+                                <!-- <p id="demo"></p> -->
+                                <script>
+                                    function myFunction(){
+                                        document.getElementById("demo").innerHTML = "1. Login to become registered user <br> 2. Dont use unfair means  <br> 3. Price Money may vary <br>  4. pay reg fee at gcr ";
+                                }
+                                </script>
+                                
+                              
+                                <div id="element2" style="height:10px">
+                                    <a href='#'><p class="explore"><span></span>REGISTER</p></a>
+                                </div>
+                                <div id="element3" style="position:relative; bottom:19px">
+                                    <a href='#'><i class="fa fa-facebook-square fa-4x" aria-hidden="true" ></i></a>
+                                </div>
+                                <div id="element4" style="height:10px">
+                                <p class="explore"><span></span>Explore</p>
+                                </div>
                             </div>
                         </div>
                     </div><!-- /.secondlife-b6 -->

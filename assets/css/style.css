@@ -3351,7 +3351,7 @@ input[type="submit"] {
 .listing-item .listing-item-link:before,
 .listing-item-rating {
     font-family: "FontAwesome";
-    content: "\f0e7";
+    /*content: "\f0e7";*/
     position: absolute;
     z-index: 20;
     display: block;
@@ -3423,6 +3423,101 @@ input[type="submit"] {
     top: 49px;
     margin-right: -50px;
 }
+
+
+
+/*============FONT AWESOME LINKEDIN =========================*/
+
+
+.listing-item .listing-item-link:before,
+.fa-linkedin {
+    font-family: "FontAwesome";
+    /*content: "\f0e7";*/
+    position: absolute;
+    z-index: 20;
+    display: block;
+    width: 38px;
+    padding: 4px;
+    top: -12px;
+    left: 50%;
+    margin-left: -19px;
+    font-size: 22px;
+    color: #fff;
+    background: #333;
+    border-radius: 50%;
+}
+
+.fa-linkedin {
+    top: 12%;
+    left: auto;
+    right: 26%;
+    margin-right: -20px;
+    margin-top: -20px;
+    width: 32px;
+    height: 32px;
+    line-height: 22px;
+    text-align: center;
+    font-family: 'Capriola', sans-serif;
+    font-size: 15px;
+    background: rgb(38, 163, 135);
+}
+
+.squared .fa-linkedin {
+    left: auto;
+    right: 8%;
+    top: 6%;
+}
+
+.grid6 .fa-linkedin {
+    top: 6px;
+    left: auto;
+    right: 5px;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.grid6.rounded-pic .fa-linkedin {
+    top: -8px;
+    right: auto;
+    left: 85px;
+}
+
+.feat-post .fa-linkedin {
+    width: 28px;
+    height: 28px;
+    line-height: 18px;
+    font-size: 15px;
+    text-shadow: none;
+    top: 40px;
+    left: auto;
+    right: 50%;
+    margin-right: -36px;
+    margin-top: 0;
+    color: rgb(38, 163, 135);
+    background: #fff;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2), -2px -2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.feat-post:hover .fa-linkedin {
+    color: #fff;
+    background: rgb(38, 163, 135);
+    top: 49px;
+    margin-right: -50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*===================FONT AWESOME LINKEDIN END=============================*/
+
 
 .listing-item .listing-item-link:hover:before {
     color: rgb(38, 163, 135);
@@ -3731,7 +3826,7 @@ input[type="submit"] {
     left: 11%;
 }
 
-.listing-item .category-icon.fa {
+.listing-item .category-icon.fa-facebook {
     font-size: 21px;
     padding-top: 2px;
 }
@@ -3751,6 +3846,94 @@ input[type="submit"] {
     background: rgb(38, 163, 135);
 }
 
+
+
+/*===========================FONT AWESOME FACEBOOK============================================*/
+
+
+
+
+
+.fa-facebook{
+    background: #3B5998;
+    color: #FFFFFF;
+  padding: 0.05em 0.3em;
+    }
+.circle{
+    border-radius: 50%;
+    margin: 0.15em;
+    font-size: 3em;
+    }
+
+
+
+
+
+
+
+.listing-item .fa-facebook {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 30px;
+    padding-top: 3px;
+    text-align: center;
+    color: #fff;
+    background: #333;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.10), -2px -2px 5px 0 rgba(0, 0, 0, 0.10);
+    border-radius: 50%;
+    z-index: 15;
+    top: 12%;
+    left: 30%;
+    margin-left: -36px;
+    margin-top: -26px;
+}
+
+
+
+.grid6 .listing-item .fa-facebook {
+    top: 6%;
+    left: 25px;
+}
+
+.grid6.rounded-pic .listing-item .fa-facebook {
+    top: 35px;
+    left: 40px;
+}
+
+.squared .listing-item .fa-facebook{
+    top: 6%;
+    left: 11%;
+}
+
+.listing-item .fa-facebook {
+    font-size: 21px;
+    padding-top: 2px;
+}
+
+.listing-item .fa-facebook:hover {
+    background: rgb(38, 163, 135);
+    color: #fff;
+}
+
+.listing.white .listing-item .fa-facebook {
+    background: #fff;
+    color: rgb(38, 163, 135);
+}
+
+.listing.white .listing-item .fa-facebook:hover {
+    color: #fff;
+    background: rgb(38, 163, 135);
+}
+
+
+
+
+
+
+
+/*========================FONT AWESOME FACEBOOK END=============================================*/
 .listing-item-author {
     position: relative;
     display: inline-block;
@@ -3842,10 +4025,11 @@ input[type="submit"] {
 
 .listing-item-address {
     font-family: 'Capriola', sans-serif;
-    font-size: 13px;
+    font-size: 20px;
     padding-bottom: 4px;
     width: 100%;
     text-align: center;
+    color: #26A387;
 }
 
 .listing-item-excerpt {
@@ -4302,7 +4486,7 @@ input[type="submit"] {
 
 .listing-item .listing-item-link:hover:before,
 .listing.white .listing-item .listing-item-link:hover:before {
-    content: "";
+    /*content: "";*/
     position: absolute;
     top: 0;
     left: 0;
@@ -4473,6 +4657,27 @@ input[type="submit"] {
     color: #fff;
     opacity: 0.8;
 }
+
+
+
+.listing-title .fa-linkedin {
+    position: relative;
+    display: inline-block;
+    right: auto;
+    top: -8px;
+    margin: 0;
+}
+
+.listing-title a.fa-linkedin:hover,
+.listing-title a.fa-linkedin:focus {
+    color: #fff;
+    opacity: 0.8;
+}
+
+
+
+
+
 
 .rating-count {
     font-family: 'Roboto';
@@ -5468,11 +5673,30 @@ input[type="submit"] {
     margin-left: -2px;
 }
 
+
+.listing.grid2 .listing-item .fa-facebook {
+    left: 0;
+    top: 25px;
+    margin-left: -2px;
+}
+
+
 .listing.grid2 .listing-item-rating {
     top: 10px;
     right: auto;
     left: 62px;
 }
+
+
+
+.listing.grid2 .fa-linkedin {
+    top: 10px;
+    right: auto;
+    left: 62px;
+}
+
+
+
 
 .listing.grid2 .listing-item-author {
     position: absolute;
@@ -5575,11 +5799,30 @@ input[type="submit"] {
     margin-left: -4px;
 }
 
+.listing.grid3 .listing-item .fa-facebook {
+    left: 0;
+    top: 12%;
+    margin-left: -4px;
+}
+
 .listing.grid3 .listing-item-rating {
     top: 6%;
     right: auto;
     left: 70px;
 }
+
+
+.listing.grid3 .fa-linkedin {
+    top: 6%;
+    right: auto;
+    left: 70px;
+}
+
+
+
+
+
+
 
 .listing.grid3 .listing-item-author {
     position: absolute;
@@ -7615,6 +7858,42 @@ footer .developer a:hover {
     transition-property: transform;
 }
 
+
+
+
+
+.how-item a:after,
+.feat-post a .feat-post-pic,
+.search-magnifier img,
+.social-networks a,
+.map-button-text:before,
+.hero-search-icon:before,
+.search-categories .categories a:before,
+.hero-arrow,
+.more-listing:before,
+.header-search-button:before,
+.more-map-listing:before,
+[id*="open-accordion"]:after,
+[id*="close-accordion"]:after,
+.gallery a,
+.listing-title a.fa-linkedin,
+.comment-avatar {
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -ms-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -ms-transform-property: -ms-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+}
+
+
+
+
+
 .how-item:hover a:after,
 .search-categories .categories a:hover:before,
 .hero-search-icon.hover:before,
@@ -7635,6 +7914,31 @@ footer .developer a:hover {
     -o-transform: rotate(360deg);
     transform: rotate(360deg);
 }
+
+.how-item:hover a:after,
+.search-categories .categories a:hover:before,
+.hero-search-icon.hover:before,
+.search-magnifier .typing,
+.social-networks a:hover,
+.map-button-text:hover:before,
+.more-listing:hover:before,
+.header-search-button:hover:before,
+.more-map-listing:hover:before,
+[id*="open-accordion"]:hover:after,
+[id*="close-accordion"]:hover:after,
+.gallery a:hover,
+.listing-title a.fa-linkedin:hover,
+.comment-avatar:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+
+
+
 
 .hero-arrow.hover {
     -webkit-transform: rotate(60deg);
@@ -7722,6 +8026,20 @@ header .add-listing {
     transition: 1s transform;
 }
 
+
+.cat-text,
+.cat-icon,
+.cat-image img,
+.listing-item .fa-facebook,
+.listing-item-author,
+.how-item h3 {
+    -webkit-transition: 1s -webkit-transform;
+    -moz-transition: 1s -moz-transform;
+    -ms-transition: 1s -moz-transform;
+    -o-transition: 1s -o-transform;
+    transition: 1s transform;
+}
+
 .navbar-inverse .navbar-nav>li>a,
 header.transparent .user-login,
 header.transparent .add-listing,
@@ -7761,6 +8079,49 @@ header.transparent .add-listing,
     -o-transition: all 1s;
     transition: all 1s;
 }
+
+.navbar-inverse .navbar-nav>li>a,
+header.transparent .user-login,
+header.transparent .add-listing,
+.light .user-login,
+.add-listing,
+.button,
+.feat-posts,
+.search-categories .categories a,
+.header-search-button,
+.back-site,
+.page-head,
+.current-page-info,
+.map-buttom,
+.current-category,
+.map-button-text,
+.map-listing #map,
+.cat-overlay,
+.cat-icon.dark,
+.listing-item .listing-item-link,
+.listing-item .listing-item-link img,
+.feat-post .fa-linkedin,
+.listing-black-overlay,
+.fixed-pricing-button .pricing-data,
+.how-item,
+.app-img img,
+.submit,
+.cities a,
+.leaflet-popup-content .maplink:before,
+.gallery-item:before,
+.feat-posts .helper,
+.listing-black-overlay,
+.single-block .thumbnail,
+.hero-header.landing .header-centralizer {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+
+
 
 .how-item img,
 .how-item-excerpt,
@@ -7900,9 +8261,28 @@ header .add-listing:hover,
     transform: rotate(0deg) scale(0.9);
 }
 
+.cat-icon,
+.listing-item .fa-facebook {
+    -webkit-transform: rotate(0deg) scale(0.9);
+    -moz-transform: rotate(0deg) scale(0.9);
+    -ms-transform: rotate(0deg) scale(0.9);
+    -o-transform: rotate(0deg) scale(0.9);
+    transform: rotate(0deg) scale(0.9);
+}
+
 .cat-item:hover .cat-icon,
 .cat-item:hover .cat-icon.dark,
 .listing-item .category-icon:hover {
+    -webkit-transform: rotate(-45deg) scale(1);
+    -moz-transform: rotate(-45deg) scale(1);
+    -ms-transform: rotate(-45deg) scale(1);
+    -o-transform: rotate(-45deg) scale(1);
+    transform: rotate(-45deg) scale(1);
+}
+
+.cat-item:hover .cat-icon,
+.cat-item:hover .cat-icon.dark,
+.listing-item .fa-facebook:hover {
     -webkit-transform: rotate(-45deg) scale(1);
     -moz-transform: rotate(-45deg) scale(1);
     -ms-transform: rotate(-45deg) scale(1);
@@ -9196,6 +9576,13 @@ header .add-listing:hover,
     .listing-title .listing-item-rating {
         top: -5px;
     }
+.listing-title .fa-linkedin {
+        top: -5px;
+    }
+
+
+
+
     .rating-count {
         top: -5px;
         left: 0;
@@ -9265,6 +9652,15 @@ header .add-listing:hover,
         right: 8%;
         top: 6%;
     }
+
+  .squared-mobile .fa-linkedin {
+        left: auto;
+        right: 8%;
+        top: 6%;
+    }
+
+
+
     .squared-mobile .listing-black-overlay {
         border-radius: 20px;
     }
@@ -9275,6 +9671,14 @@ header .add-listing:hover,
         top: 6%;
         left: 11%;
     }
+
+
+    .squared-mobile .listing-item .fa-facebook {
+        top: 6%;
+        left: 11%;
+    }
+
+
     .squared-mobile .listing-item .listing-item-link:hover:before,
     .listing.white.squared-mobile .listing-item .listing-item-link:hover:before {
         display: none;
@@ -9308,9 +9712,23 @@ header .add-listing:hover,
     .grid6.rounded-pic .listing-item-rating {
         left: 72px;
     }
+    .grid6.rounded-pic .fa-linkedin {
+        left: 72px;
+    }
+
+
+
     .grid6.rounded-pic .listing-item .category-icon {
         left: 35px;
     }
+
+
+    .grid6.rounded-pic .listing-item .fa-facebook {
+        left: 35px;
+    }
+
+
+
     .no-addr-on-mobile .listing-item-address {
         display: none;
     }
@@ -9587,6 +10005,12 @@ header .add-listing:hover,
     .listing-title .listing-item-rating {
         top: -4px;
     }
+.listing-title .fa-linkedin {
+        top: -4px;
+    }
+
+
+
     .rating-count {
         top: -4px;
     }
@@ -9602,6 +10026,14 @@ header .add-listing:hover,
     .grid6.rounded-pic .listing-item-rating {
         left: 62px;
     }
+.grid6.rounded-pic .fa-linkedin {
+        left: 62px;
+    }
+
+
+
+
+
     .listing.grid6 .feat-data {
         display: none;
     }

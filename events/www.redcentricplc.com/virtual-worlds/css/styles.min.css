@@ -1992,13 +1992,13 @@ footer.large .foot-planet .text {
     margin: 0 0 0 450px
 }
 
-/*changes for full screen view*/
-.wow-interact .b7{margin:0 0 0 110px}
-.wow-interact .b8{margin:0 0 0 400px}
-.wow-interact .b9{margin:0 0 0 350px}
-.wow-interact .b10{margin:0 0 0 20px}
-.wow-interact .b11{margin:0 0 0 300px}
-.wow-interact .b12{margin:0 0 0 180px}
+/*changes for full screen view */
+.wow-interact .b7{margin:110px 0 0 -400px}
+.wow-interact .b8{margin:80px 0 0 -200px}
+.wow-interact .b9{margin:290px 0 0 -350px}
+.wow-interact .b10{margin:180px 0 0 100px}
+.wow-interact .b11{margin:170px 0 0 200px}
+.wow-interact .b12{margin:180px 0 0 -400px}
 
 /*upto here*/
 
@@ -2023,19 +2023,19 @@ footer.large .foot-planet .text {
 }
 
 .eve-interact .b6 {
-    margin: 0 0 0 450px
+    margin: 50px 0 0 250px
 }
 
 .eve-interact .b7 {
-    margin: 80px 0 0 80px
+    margin: 80px 10px 0 80px
 }
 
 /*CHANGES */
-.eve-interact .b8{margin:80px 0 0 180px}
-.eve-interact .b9{margin:80px 0 0 260px}
-.eve-interact .b10{margin:160px 0 0 180px}
-.eve-interact .b11{margin:200px 0 0 360px}
-.eve-interact .b12{margin:30px 0 0 180px}
+.eve-interact .b8{margin:0 20px 0px 180px}
+.eve-interact .b9{margin:0 30px 0px 260px}
+.eve-interact .b10{margin:0 40px 0px 180px}
+.eve-interact .b11{margin:0 50px 40px 360px}
+.eve-interact .b12{margin:0 60px 50px 180px}
   /*  */
 
 .secondlife-interact .b1 {
@@ -2043,7 +2043,7 @@ footer.large .foot-planet .text {
 }
 
 .secondlife-interact .b2 {
-    margin: 170px 0 0 350px
+    margin: 170px 0 150px 350px
 }
 
 .secondlife-interact .b3 {
@@ -2063,16 +2063,16 @@ footer.large .foot-planet .text {
 }
 
 .secondlife-interact .b7 {
-    margin:220px 0 0 520px
+    margin:220px 0 300px 520px
 }
 
 
 /*CHANGES*/
-.secondlife-interact .b8{margin:80px 0 0 -20px}
-.secondlife-interact .b9{margin:200px 0 0 80px}
-.secondlife-interact .b10{margin:320px 0 0 120px}
-.secondlife-interact .b11{margin:380px 0 0 20px}
-.secondlife-interact .b12{margin:320px 0 0 220px}   /* */
+.secondlife-interact .b8{margin:80px 0 300px -20px}
+.secondlife-interact .b9{margin:200px 0 350px 180px}
+.secondlife-interact .b10{margin:320px 0 200px 120px}
+.secondlife-interact .b11{margin:380px 0 250px -200px}
+.secondlife-interact .b12{margin:320px 0 200px -220px}   /* */
 .overlays {
     position: fixed;
     top: 0;
@@ -2579,7 +2579,8 @@ footer.large .foot-planet .text {
         margin-bottom: 0
     }
     .overlays .overlay>.inner p {
-        margin-bottom: 20px
+        margin-bottom: 20px;
+        width:auto;
     }
     .overlays .overlay>.inner:before {
         display: none
@@ -2611,15 +2612,17 @@ footer.large .foot-planet .text {
     .world-interact .b7 {
         margin: 100px 0 0 -50px!important
     }
-	
-	/*changes for less screen size*/
-.world-interact .b8{margin:200px 0 0 -50px!important}
-.world-interact .b9{margin:320px 0 0 -50px!important}
-.world-interact .b10{margin:290px 0 0 -50px!important}
-.world-interact .b11{margin:270px 0 0 -50px!important}
-.world-interact .b12{margin:300px 0 0 -50px!important}
+    
+    /*changes for less screen size*/
+.world-interact .b8{margin:200px 0 0 -50px}
+.world-interact .b9{margin:-170px 0 0 -50px}
+.world-interact .b10{margin:280px 0 0 50px}
+.world-interact .b11{margin:230px 0 0 50px}
+.world-interact .b12{margin:260px 0 0 -90px}
 /*/upto here
 */
+.wow-interact .b8 {
+    margin-left: -30px;}
     .map-list:before {
         display: none
     }
@@ -2647,16 +2650,16 @@ footer.large .foot-planet .text {
 
 @media (max-width:990px) {
     .wow-interact .b1 {
-        margin-left: -300px
+        margin-left: -30px
     }
-	
-	/*changes for less screen size*/
-	.wow-interact .b8{margin-left:-350px}
-	.wow-interact .b9{margin-left:200px}
-	/*upto here*/
+    
+    /*changes for less screen size*/
+    .wow-interact .b8{margin-left:-30px}
+    .wow-interact .b9{margin-left:20px}
+    /*upto here*/
     .wow-interact .b6 {
-        margin-left: 200px;
-        margin-top: 100px
+        margin-left: 20px;
+        margin-top: 10px
     }
     .eve-interact .b4 {
         margin-left: 150px

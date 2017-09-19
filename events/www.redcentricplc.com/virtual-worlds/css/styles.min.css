@@ -455,7 +455,9 @@ a:visited {
 }
 
 .intro-content .text-worlds {
-    background: url(../img/vw/worlds.png) 50% 10px no-repeat;
+    
+    background: url(../img/vw/worlds.png) 50.3% -119px no-repeat;
+    
     height: 94px;
     width: 100%;
     position: absolute;
